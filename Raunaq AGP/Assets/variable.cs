@@ -18,19 +18,22 @@ public class variable : MonoBehaviour
     //public static Dictionary<string, List<GameObject>> Assigned_Street = new Dictionary<string, List<GameObject>>();
     // Start is called before the first frame update
 
+    public static Dictionary<string, List<int>> Land = new Dictionary<string, List<int>>();
+
+    public static Dictionary<int, int> Luxury_cluster = new Dictionary<int, int>();
+    public static Dictionary<int, int> Alleyway_cluster = new Dictionary<int, int>();
+    public static Dictionary<int, int> Street_cluster = new Dictionary<int, int>();
+
     void Start()
     {
         sample s1 = new sample();
         s1.New();
 
-        foreach (KeyValuePair<string, List<GameObject>> kvp in Player2){
+        foreach (KeyValuePair<int, int> kvp in Street_cluster){
+            Debug.Log(kvp.Value);
             Debug.Log(kvp.Key);
 
-            foreach (GameObject g in kvp.Value) {
-                Debug.Log(g.name);
-                
-            }
-            
+         
         }
         //Debug.Log(Mapping);
 

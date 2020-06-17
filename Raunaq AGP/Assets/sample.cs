@@ -60,7 +60,8 @@ public class sample : MonoBehaviour
     }
         
         
-
+        //Player 1 - Red
+        //Player 2 - Blue
         public void printTile(List<GameObject> tile_assign, int x)
         {
             string s = "";

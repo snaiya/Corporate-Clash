@@ -19,7 +19,6 @@ public class BuildingCreate : MonoBehaviour
    public Button button_f;
    public Button button_g;
 
-   public string building_placed = null;
 
    public HashSet<string> player1_permit = new HashSet<string>();
    
@@ -52,10 +51,9 @@ public class BuildingCreate : MonoBehaviour
             // tile_selected= false;
           //According to land permit set the conditons in if
            
-
-          if(Input.GetMouseButtonDown(0) ){
-                
         
+          if(Input.GetMouseButtonDown(0)){
+               
              if(is_tile==true){ 
                 tile_placement();
              }
@@ -74,11 +72,11 @@ public class BuildingCreate : MonoBehaviour
             // Touch touch = Input.touches[0];
             // Vector2 raycastposition = Camera.main.ScreenToWorldPoint(touch.position);
             // RaycastHit2D hit = Physics2D.Raycast(raycastposition,Vector2.zero);
-            Debug.Log("Entered");
+             Debug.Log("Entered");
              Vector2 raycastposition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
              RaycastHit2D hit = Physics2D.Raycast(raycastposition,Vector2.zero);
             
-            if(hit.collider!=null && player1_permit.Contains(hit.collider.name)){
+            if(hit.collider!=null && player1_permit.Contains(hit.collider.gameObject.name)){
                 
                 hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
                 // button_f.gameObject.gameObject.SetActive(true);
@@ -131,7 +129,6 @@ public class BuildingCreate : MonoBehaviour
                      GameObject building=Instantiate(prefab_buildingG,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
                     
                      building_g = false;
-                     building_placed = "building_g";
                      hit.collider.gameObject.GetComponent<tile_individual>().building_placed = "building_g";
                      
                  }

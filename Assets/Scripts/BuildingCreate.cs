@@ -21,7 +21,9 @@ public class BuildingCreate : MonoBehaviour
 
 
    public HashSet<string> player1_permit = new HashSet<string>();
-   
+   public static List<GameObject> Alleyway_building = new List<GameObject>();
+   public static List<GameObject> Luxury_building = new List<GameObject>();
+   public static List<GameObject> Street_building = new List<GameObject>();
 
     void Start(){
         //  tile.gameObject.SetActive(true);
@@ -119,19 +121,42 @@ public class BuildingCreate : MonoBehaviour
              if(hit.collider!=null && hit.collider.gameObject.GetComponent<SpriteRenderer>().color==Color.green && hit.collider.gameObject.GetComponent<tile_individual>().building_placed.Equals("") ){
                  if(building_f==true){
 
-                GameObject building=Instantiate(prefab_buildingF,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
-                building_f = false;
-                Debug.Log(hit.collider.gameObject.name);
-                hit.collider.gameObject.GetComponent<tile_individual>().building_placed = "building_f";
+                    GameObject building=Instantiate(prefab_buildingF,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
+                    building_f = false;
+                    
+                    if(hit.collider.transform.parent.gameObject.name=="Luxury"){
+                        Luxury_building.Add(hit.collider.gameObject);
+                    }
+                    else if(hit.collider.transform.parent.gameObject.name=="Alleyway"){
+                        Alleyway_building.Add(hit.collider.gameObject);
+                    }
+                    else{
+                        Street_building.Add(hit.collider.gameObject);
+                    }
+
+                    // foreach(GameObject l in Luxury_building){
+                    //     Debug.Log(l.name);
+                    // }
+
+                    hit.collider.gameObject.GetComponent<tile_individual>().building_placed = "building_f";
                 
                  }
                  else{
-                     GameObject building=Instantiate(prefab_buildingG,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
-                    
-                     building_g = false;
-                     hit.collider.gameObject.GetComponent<tile_individual>().building_placed = "building_g";
-                     
-                 }
+                        GameObject building=Instantiate(prefab_buildingG,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
+
+                        building_g = false;
+                        hit.collider.gameObject.GetComponent<tile_individual>().building_placed = "building_g";
+                        
+                        if(hit.collider.transform.parent.gameObject.name=="Luxury"){
+                            Luxury_building.Add(hit.collider.gameObject);
+                        }
+                        else if(hit.collider.transform.parent.gameObject.name=="Alleyway"){
+                            Alleyway_building.Add(hit.collider.gameObject);
+                        }
+                        else{
+                            Street_building.Add(hit.collider.gameObject);
+                        }
+                }
 
 
                 

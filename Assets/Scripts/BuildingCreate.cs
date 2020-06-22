@@ -18,7 +18,10 @@ public class BuildingCreate : MonoBehaviour
    public Button tile;
    public Button button_f;
    public Button button_g;
-
+   float timeLeft = 30.0f;
+   public Text startText;
+   public Text money;
+   public Text location;
 
    public HashSet<string> player1_permit = new HashSet<string>();
    public static List<GameObject> Alleyway_building = new List<GameObject>();
@@ -30,7 +33,7 @@ public class BuildingCreate : MonoBehaviour
         //  button_f.gameObject.SetActive(false);
         //  button_g.gameObject.SetActive(false);
             Debug.Log("Started");
-
+            
             sample s1 = new sample();
             s1.New();
 
@@ -52,8 +55,26 @@ public class BuildingCreate : MonoBehaviour
     { 
             // tile_selected= false;
           //According to land permit set the conditons in if
-           
-        
+        // Debug.Log("hi");  
+        timeLeft -= Time.deltaTime;
+        startText.text = timeLeft.ToString("0");
+        // Debug.Log("Countdown: " + timeLeft)
+        Vector2 raycastposition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        RaycastHit2D hit = Physics2D.Raycast(raycastposition,Vector2.zero);
+        if(hit.collider!=null){
+            // Debug.Log(hit.collider.transform.parent.name);
+            location.gameObject.SetActive(true);
+            location.text = hit.collider.transform.parent.name;
+        }
+
+        if (timeLeft < 0.0f)
+        {
+            enabled = false;
+            //Call the consumer phase code here and change the value he recieved in money.
+            // Debug.Log("Countdown: " + timeLeft);
+        }
+
+
           if(Input.GetMouseButtonDown(0)){
                
              if(is_tile==true){ 
@@ -70,17 +91,28 @@ public class BuildingCreate : MonoBehaviour
     }
         public void tile_placement(){
        
-        
             // Touch touch = Input.touches[0];
             // Vector2 raycastposition = Camera.main.ScreenToWorldPoint(touch.position);
             // RaycastHit2D hit = Physics2D.Raycast(raycastposition,Vector2.zero);
              Debug.Log("Entered");
              Vector2 raycastposition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
              RaycastHit2D hit = Physics2D.Raycast(raycastposition,Vector2.zero);
             
+            
             if(hit.collider!=null && player1_permit.Contains(hit.collider.gameObject.name)){
-                
+
                 hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+
+                 if(hit.collider.transform.parent.gameObject.name=="Luxury"){
+                     money.text = (int.Parse(money.text)-100).ToString();
+                 }
+                 else if(hit.collider.transform.parent.gameObject.name=="Alleyway"){
+                     money.text = (int.Parse(money.text)-70).ToString();
+                 }
+                 else{
+                    money.text = (int.Parse(money.text)-50).ToString();
+                 }
                 // button_f.gameObject.gameObject.SetActive(true);
                 // button_g.gameObject.SetActive(true);
                 // tile.gameObject.SetActive(false);
@@ -126,12 +158,16 @@ public class BuildingCreate : MonoBehaviour
                     
                     if(hit.collider.transform.parent.gameObject.name=="Luxury"){
                         Luxury_building.Add(hit.collider.gameObject);
+                        Debug.Log(money.text);
+                        money.text = (int.Parse(money.text)-50).ToString();
                     }
                     else if(hit.collider.transform.parent.gameObject.name=="Alleyway"){
                         Alleyway_building.Add(hit.collider.gameObject);
+                        money.text = (int.Parse(money.text)-30).ToString();
                     }
                     else{
                         Street_building.Add(hit.collider.gameObject);
+                        money.text = (int.Parse(money.text)-25).ToString();
                     }
 
                     // foreach(GameObject l in Luxury_building){
@@ -149,12 +185,15 @@ public class BuildingCreate : MonoBehaviour
                         
                         if(hit.collider.transform.parent.gameObject.name=="Luxury"){
                             Luxury_building.Add(hit.collider.gameObject);
+                            money.text = (int.Parse(money.text)-80).ToString();
                         }
                         else if(hit.collider.transform.parent.gameObject.name=="Alleyway"){
                             Alleyway_building.Add(hit.collider.gameObject);
+                            money.text = (int.Parse(money.text)-60).ToString();
                         }
                         else{
                             Street_building.Add(hit.collider.gameObject);
+                            money.text = (int.Parse(money.text)-55).ToString();
                         }
                 }
 
@@ -167,6 +206,15 @@ public class BuildingCreate : MonoBehaviour
             // tile.gameObject.SetActive(true);
             
     }
+
+    public void start_next_round(){
+
+        enabled = true;
+        timeLeft = 30.0f;
+        Debug.Log("Enabled");
+    }
+
+   
 
 
 }

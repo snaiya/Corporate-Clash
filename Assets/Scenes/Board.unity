@@ -1766,26 +1766,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8000001, g: 0.8000001, b: 0.8000001, a: 1}
+  m_Color: {r: 0.735849, g: 0.70537937, b: 0.4269313, a: 1}
   m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 32
-    m_FontStyle: 0
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    m_FontSize: 36
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Time Left
+  m_Text: '
 
 '
 --- !u!222 &197208727
@@ -1812,7 +1812,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -34, y: -9}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &203350837
@@ -3537,7 +3537,7 @@ PrefabInstance:
     - target: {fileID: 2633540553708321076, guid: e0ef08a41831245cba8b44432434cc28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.95
+      value: -4.7
       objectReference: {fileID: 0}
     - target: {fileID: 2687050100938027787, guid: e0ef08a41831245cba8b44432434cc28,
         type: 3}
@@ -3597,8 +3597,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342803959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 68.2, y: 22.563, z: -4.2319}
-  m_LocalScale: {x: 1.9569374, y: 1.6327677, z: 1}
+  m_LocalPosition: {x: 50.673, y: 21.845, z: -4.2319}
+  m_LocalScale: {x: 2.3216653, y: 1.714406, z: 1}
   m_Children:
   - {fileID: 1714636313}
   - {fileID: 1904985605}
@@ -4355,21 +4355,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.17942329, g: 0.6037736, b: 0.31147084, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: bbbcd36749465a64eb773f2e87a79b6c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &383798385
 CanvasRenderer:
@@ -5748,7 +5748,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.11320752, g: 0, b: 0.03533168, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -5789,7 +5789,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: -4.8, z: -10}
+  m_LocalPosition: {x: -3, y: -4.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6329,7 +6329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 38, y: 3}
+  m_AnchoredPosition: {x: 38, y: 353}
   m_SizeDelta: {x: 160, y: 100}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &543259693
@@ -6493,7 +6493,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &556808592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6511,7 +6511,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -207, y: 196}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &556808593
@@ -9181,8 +9181,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 94, y: -2}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 240, y: -43}
+  m_SizeDelta: {x: 160, y: 100}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &824282382
 MonoBehaviour:
@@ -9197,19 +9197,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.89284444, b: 0.89284444, a: 1}
+  m_Color: {r: 0.6226415, g: 0.58210015, b: 0.3964934, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
-    m_FontStyle: 0
-    m_BestFit: 0
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 3
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 30
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -10890,15 +10890,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Build BuildingF
-
-
-    Luxury : $50
-
-    Alleyway : $30
-
-    Street : 
-    $25'
+  m_Text: 
 --- !u!222 &934756095
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11729,11 +11721,11 @@ RectTransform:
   m_Father: {fileID: 2143494419}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 18, y: 0}
+  m_SizeDelta: {x: 140, y: 140}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1033023711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11807,8 +11799,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 35bb06912ca0945d58e586375750ddf0, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13753,7 +13745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: 39.000015}
+  m_AnchoredPosition: {x: 7, y: 505}
   m_SizeDelta: {x: 160, y: 100}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1205490004
@@ -20851,15 +20843,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Build BuildingG
-
-
-    Luxury : $80
-
-    Alleyway : $60
-
-    Street : 
-    $55'
+  m_Text: 
 --- !u!222 &1700897565
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23345,14 +23329,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Place Tile
-
-
-    Luxury : $100
-
-    Alleyway : $70
-
-    Street :  $50'
+  m_Text: 
 --- !u!222 &1859193868
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23825,9 +23802,9 @@ MonoBehaviour:
   building_f: 0
   building_g: 0
   is_tile: 0
-  prefab_buildingG: {fileID: 603721159314323397, guid: 52e3751d8c215455da0b26920ce970f7,
+  prefab_buildingG: {fileID: 1296724853057158001, guid: c858402007ed949ab9ae85f2b48b828b,
     type: 3}
-  prefab_buildingF: {fileID: 7857171687986891164, guid: 5e8caa89b64fb453f8321afbb9c9196d,
+  prefab_buildingF: {fileID: 3441409599863305779, guid: c83ef5f086ba247ed87868b4002fa387,
     type: 3}
   tile: {fileID: 383798383}
   button_f: {fileID: 1033023711}
@@ -24829,11 +24806,11 @@ RectTransform:
   m_Father: {fileID: 2143494419}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 119.799805, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 9, y: 133}
+  m_SizeDelta: {x: 140, y: 100}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1983825453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24907,8 +24884,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d1c97a61c6f0841989e838149081f9ba, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -26865,6 +26842,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoadTile
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687050100938027787, guid: e0ef08a41831245cba8b44432434cc28,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0ef08a41831245cba8b44432434cc28, type: 3}

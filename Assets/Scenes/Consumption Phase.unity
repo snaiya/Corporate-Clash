@@ -346,7 +346,6 @@ GameObject:
   - component: {fileID: 56463889}
   - component: {fileID: 56463888}
   - component: {fileID: 56463886}
-  - component: {fileID: 56463887}
   m_Layer: 0
   m_Name: Street5
   m_TagString: Untagged
@@ -383,19 +382,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &56463887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 56463884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &56463888
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -490,7 +476,6 @@ GameObject:
   - component: {fileID: 80826631}
   - component: {fileID: 80826630}
   - component: {fileID: 80826628}
-  - component: {fileID: 80826629}
   m_Layer: 0
   m_Name: Street28
   m_TagString: Untagged
@@ -527,19 +512,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &80826629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 80826626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &80826630
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -634,7 +606,6 @@ GameObject:
   - component: {fileID: 81578070}
   - component: {fileID: 81578069}
   - component: {fileID: 81578067}
-  - component: {fileID: 81578068}
   m_Layer: 0
   m_Name: Alleyway40
   m_TagString: Untagged
@@ -671,19 +642,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &81578068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 81578065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &81578069
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -778,7 +736,6 @@ GameObject:
   - component: {fileID: 100269804}
   - component: {fileID: 100269803}
   - component: {fileID: 100269801}
-  - component: {fileID: 100269802}
   m_Layer: 0
   m_Name: LuxuryTile12
   m_TagString: Untagged
@@ -815,19 +772,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &100269802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100269799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &100269803
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1028,7 +972,6 @@ GameObject:
   - component: {fileID: 113932767}
   - component: {fileID: 113932766}
   - component: {fileID: 113932764}
-  - component: {fileID: 113932765}
   m_Layer: 0
   m_Name: Alleyway43
   m_TagString: Untagged
@@ -1065,19 +1008,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &113932765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113932762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &113932766
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1172,7 +1102,6 @@ GameObject:
   - component: {fileID: 133704708}
   - component: {fileID: 133704707}
   - component: {fileID: 133704705}
-  - component: {fileID: 133704706}
   m_Layer: 0
   m_Name: Street55
   m_TagString: Untagged
@@ -1195,19 +1124,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &133704706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133704704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &133704707
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1316,7 +1232,6 @@ GameObject:
   - component: {fileID: 148831164}
   - component: {fileID: 148831163}
   - component: {fileID: 148831161}
-  - component: {fileID: 148831162}
   m_Layer: 0
   m_Name: Alleyway27
   m_TagString: Untagged
@@ -1353,19 +1268,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &148831162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148831159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &148831163
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1460,7 +1362,6 @@ GameObject:
   - component: {fileID: 159910355}
   - component: {fileID: 159910354}
   - component: {fileID: 159910352}
-  - component: {fileID: 159910353}
   m_Layer: 0
   m_Name: Alleyway16
   m_TagString: Untagged
@@ -1497,19 +1398,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &159910353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159910350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &159910354
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1604,7 +1492,6 @@ GameObject:
   - component: {fileID: 188442718}
   - component: {fileID: 188442717}
   - component: {fileID: 188442715}
-  - component: {fileID: 188442716}
   m_Layer: 0
   m_Name: Alleyway20
   m_TagString: Untagged
@@ -1641,19 +1528,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &188442716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188442713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &188442717
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1748,7 +1622,6 @@ GameObject:
   - component: {fileID: 203350841}
   - component: {fileID: 203350840}
   - component: {fileID: 203350838}
-  - component: {fileID: 203350839}
   m_Layer: 0
   m_Name: Street60
   m_TagString: Untagged
@@ -1771,19 +1644,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &203350839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203350837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &203350840
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1892,7 +1752,6 @@ GameObject:
   - component: {fileID: 207980937}
   - component: {fileID: 207980936}
   - component: {fileID: 207980934}
-  - component: {fileID: 207980935}
   m_Layer: 0
   m_Name: Street64
   m_TagString: Untagged
@@ -1915,19 +1774,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &207980935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207980933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &207980936
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2142,7 +1988,6 @@ GameObject:
   - component: {fileID: 254483487}
   - component: {fileID: 254483486}
   - component: {fileID: 254483484}
-  - component: {fileID: 254483485}
   m_Layer: 0
   m_Name: LuxuryTile8
   m_TagString: Untagged
@@ -2179,19 +2024,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &254483485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254483482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &254483486
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2286,7 +2118,6 @@ GameObject:
   - component: {fileID: 256367155}
   - component: {fileID: 256367154}
   - component: {fileID: 256367152}
-  - component: {fileID: 256367153}
   m_Layer: 0
   m_Name: Street57
   m_TagString: Untagged
@@ -2309,19 +2140,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &256367153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256367151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &256367154
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2430,7 +2248,6 @@ GameObject:
   - component: {fileID: 261751832}
   - component: {fileID: 261751831}
   - component: {fileID: 261751829}
-  - component: {fileID: 261751830}
   m_Layer: 0
   m_Name: Alleyway23
   m_TagString: Untagged
@@ -2467,19 +2284,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &261751830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261751827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &261751831
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2574,7 +2378,6 @@ GameObject:
   - component: {fileID: 270665254}
   - component: {fileID: 270665253}
   - component: {fileID: 270665251}
-  - component: {fileID: 270665252}
   m_Layer: 0
   m_Name: Alleyway14
   m_TagString: Untagged
@@ -2611,19 +2414,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &270665252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270665249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &270665253
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2718,7 +2508,6 @@ GameObject:
   - component: {fileID: 288742052}
   - component: {fileID: 288742051}
   - component: {fileID: 288742049}
-  - component: {fileID: 288742050}
   m_Layer: 0
   m_Name: Street16
   m_TagString: Untagged
@@ -2755,19 +2544,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &288742050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288742047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &288742051
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2968,7 +2744,6 @@ GameObject:
   - component: {fileID: 305995284}
   - component: {fileID: 305995283}
   - component: {fileID: 305995281}
-  - component: {fileID: 305995282}
   m_Layer: 0
   m_Name: Alleyway24
   m_TagString: Untagged
@@ -3005,19 +2780,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &305995282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305995279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &305995283
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3112,7 +2874,6 @@ GameObject:
   - component: {fileID: 313093053}
   - component: {fileID: 313093052}
   - component: {fileID: 313093050}
-  - component: {fileID: 313093051}
   m_Layer: 0
   m_Name: Street37
   m_TagString: Untagged
@@ -3135,19 +2896,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &313093051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313093049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &313093052
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3256,7 +3004,6 @@ GameObject:
   - component: {fileID: 322736222}
   - component: {fileID: 322736221}
   - component: {fileID: 322736219}
-  - component: {fileID: 322736220}
   m_Layer: 0
   m_Name: LuxuryTile19
   m_TagString: Untagged
@@ -3293,19 +3040,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &322736220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322736217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &322736221
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3457,7 +3191,7 @@ PrefabInstance:
     - target: {fileID: 2633540553708321076, guid: e0ef08a41831245cba8b44432434cc28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.95
+      value: -4.7
       objectReference: {fileID: 0}
     - target: {fileID: 2687050100938027787, guid: e0ef08a41831245cba8b44432434cc28,
         type: 3}
@@ -3502,6 +3236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 342803960}
+  - component: {fileID: 342803961}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -3517,14 +3252,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342803959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 68.2, y: 22.563, z: -4.2319}
-  m_LocalScale: {x: 1.9569374, y: 1.6327677, z: 1}
+  m_LocalPosition: {x: 60, y: 21.845, z: -4.2319}
+  m_LocalScale: {x: 2.3216653, y: 1.714406, z: 1}
   m_Children:
   - {fileID: 1714636313}
   - {fileID: 1904985605}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &342803961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342803959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef959e22c3584e2982d13ca4deb44bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consumer: {fileID: 5468994051414174225, guid: 7aecebb73a814452f82b30ddf39dd941,
+    type: 3}
+  time: 3
 --- !u!1001 &348885796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3750,7 +3500,6 @@ GameObject:
   - component: {fileID: 375211956}
   - component: {fileID: 375211955}
   - component: {fileID: 375211953}
-  - component: {fileID: 375211954}
   m_Layer: 0
   m_Name: Street22
   m_TagString: Untagged
@@ -3787,19 +3536,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &375211954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375211951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &375211955
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3894,7 +3630,6 @@ GameObject:
   - component: {fileID: 378318915}
   - component: {fileID: 378318914}
   - component: {fileID: 378318912}
-  - component: {fileID: 378318913}
   m_Layer: 0
   m_Name: Street56
   m_TagString: Untagged
@@ -3917,19 +3652,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &378318913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378318911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &378318914
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4038,7 +3760,6 @@ GameObject:
   - component: {fileID: 379069254}
   - component: {fileID: 379069253}
   - component: {fileID: 379069251}
-  - component: {fileID: 379069252}
   m_Layer: 0
   m_Name: Street21
   m_TagString: Untagged
@@ -4075,19 +3796,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &379069252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379069249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &379069253
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4169,136 +3877,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 1
---- !u!1 &383798381
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 383798382}
-  - component: {fileID: 383798385}
-  - component: {fileID: 383798384}
-  - component: {fileID: 383798383}
-  m_Layer: 5
-  m_Name: Tile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &383798382
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383798381}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1859193866}
-  m_Father: {fileID: 2143494419}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 1, y: 0}
---- !u!114 &383798383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383798381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 383798384}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1904985604}
-        m_MethodName: place_tile
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &383798384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383798381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &383798385
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383798381}
-  m_CullTransparentMesh: 0
 --- !u!1 &394122843
 GameObject:
   m_ObjectHideFlags: 0
@@ -4312,7 +3890,6 @@ GameObject:
   - component: {fileID: 394122848}
   - component: {fileID: 394122847}
   - component: {fileID: 394122845}
-  - component: {fileID: 394122846}
   m_Layer: 0
   m_Name: Alleyway41
   m_TagString: Untagged
@@ -4349,19 +3926,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &394122846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394122843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &394122847
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4456,7 +4020,6 @@ GameObject:
   - component: {fileID: 394547150}
   - component: {fileID: 394547149}
   - component: {fileID: 394547147}
-  - component: {fileID: 394547148}
   m_Layer: 0
   m_Name: Alleyway17
   m_TagString: Untagged
@@ -4493,19 +4056,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &394547148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394547145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &394547149
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4600,7 +4150,6 @@ GameObject:
   - component: {fileID: 396851375}
   - component: {fileID: 396851374}
   - component: {fileID: 396851372}
-  - component: {fileID: 396851373}
   m_Layer: 0
   m_Name: Alleyway38
   m_TagString: Untagged
@@ -4637,19 +4186,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &396851373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396851370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &396851374
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4850,7 +4386,6 @@ GameObject:
   - component: {fileID: 458254199}
   - component: {fileID: 458254198}
   - component: {fileID: 458254196}
-  - component: {fileID: 458254197}
   m_Layer: 0
   m_Name: Street52
   m_TagString: Untagged
@@ -4873,19 +4408,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &458254197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458254195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &458254198
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4994,7 +4516,6 @@ GameObject:
   - component: {fileID: 474539658}
   - component: {fileID: 474539657}
   - component: {fileID: 474539655}
-  - component: {fileID: 474539656}
   m_Layer: 0
   m_Name: Street71
   m_TagString: Untagged
@@ -5017,19 +4538,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &474539656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474539654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &474539657
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5510,7 +5018,6 @@ GameObject:
   - component: {fileID: 509328380}
   - component: {fileID: 509328379}
   - component: {fileID: 509328377}
-  - component: {fileID: 509328382}
   m_Layer: 0
   m_Name: LuxuryTile1
   m_TagString: Untagged
@@ -5628,19 +5135,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 1
---- !u!114 &509328382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509328375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5668,7 +5162,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.11320752, g: 0, b: 0.03533168, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -5709,7 +5203,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: -4.8, z: -10}
+  m_LocalPosition: {x: -3, y: -4.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5728,7 +5222,6 @@ GameObject:
   - component: {fileID: 523344616}
   - component: {fileID: 523344615}
   - component: {fileID: 523344613}
-  - component: {fileID: 523344614}
   m_Layer: 0
   m_Name: Street44
   m_TagString: Untagged
@@ -5751,19 +5244,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &523344614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 523344612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &523344615
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5872,7 +5352,6 @@ GameObject:
   - component: {fileID: 528781194}
   - component: {fileID: 528781193}
   - component: {fileID: 528781191}
-  - component: {fileID: 528781192}
   m_Layer: 0
   m_Name: LuxuryTile14
   m_TagString: Untagged
@@ -5909,19 +5388,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &528781192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528781189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &528781193
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6542,7 +6008,6 @@ GameObject:
   - component: {fileID: 576536937}
   - component: {fileID: 576536936}
   - component: {fileID: 576536934}
-  - component: {fileID: 576536935}
   m_Layer: 0
   m_Name: LuxuryTile23
   m_TagString: Untagged
@@ -6579,19 +6044,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &576536935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576536932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &576536936
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6686,7 +6138,6 @@ GameObject:
   - component: {fileID: 592810978}
   - component: {fileID: 592810977}
   - component: {fileID: 592810975}
-  - component: {fileID: 592810976}
   m_Layer: 0
   m_Name: Street13
   m_TagString: Untagged
@@ -6723,19 +6174,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &592810976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 592810973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &592810977
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6830,7 +6268,6 @@ GameObject:
   - component: {fileID: 608684569}
   - component: {fileID: 608684568}
   - component: {fileID: 608684566}
-  - component: {fileID: 608684567}
   m_Layer: 0
   m_Name: Alleyway33
   m_TagString: Untagged
@@ -6867,19 +6304,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &608684567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 608684564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &608684568
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7080,7 +6504,6 @@ GameObject:
   - component: {fileID: 612166984}
   - component: {fileID: 612166983}
   - component: {fileID: 612166981}
-  - component: {fileID: 612166982}
   m_Layer: 0
   m_Name: Alleyway18
   m_TagString: Untagged
@@ -7117,19 +6540,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &612166982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 612166979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &612166983
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7224,7 +6634,6 @@ GameObject:
   - component: {fileID: 656085113}
   - component: {fileID: 656085112}
   - component: {fileID: 656085110}
-  - component: {fileID: 656085111}
   m_Layer: 0
   m_Name: Street68
   m_TagString: Untagged
@@ -7247,19 +6656,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &656085111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656085109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &656085112
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7368,7 +6764,6 @@ GameObject:
   - component: {fileID: 701447867}
   - component: {fileID: 701447866}
   - component: {fileID: 701447864}
-  - component: {fileID: 701447865}
   m_Layer: 0
   m_Name: Street0
   m_TagString: Untagged
@@ -7405,19 +6800,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &701447865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701447862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &701447866
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7512,7 +6894,6 @@ GameObject:
   - component: {fileID: 713777301}
   - component: {fileID: 713777300}
   - component: {fileID: 713777298}
-  - component: {fileID: 713777299}
   m_Layer: 0
   m_Name: LuxuryTile5
   m_TagString: Untagged
@@ -7549,19 +6930,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &713777299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713777296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &713777300
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7762,7 +7130,6 @@ GameObject:
   - component: {fileID: 735812545}
   - component: {fileID: 735812544}
   - component: {fileID: 735812542}
-  - component: {fileID: 735812543}
   m_Layer: 0
   m_Name: Street32
   m_TagString: Untagged
@@ -7799,19 +7166,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &735812543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735812540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &735812544
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7906,7 +7260,6 @@ GameObject:
   - component: {fileID: 742832603}
   - component: {fileID: 742832602}
   - component: {fileID: 742832600}
-  - component: {fileID: 742832601}
   m_Layer: 0
   m_Name: Street2
   m_TagString: Untagged
@@ -7943,19 +7296,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &742832601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742832598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &742832602
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8050,7 +7390,6 @@ GameObject:
   - component: {fileID: 755588380}
   - component: {fileID: 755588379}
   - component: {fileID: 755588377}
-  - component: {fileID: 755588378}
   m_Layer: 0
   m_Name: Street62
   m_TagString: Untagged
@@ -8073,19 +7412,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &755588378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755588376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &755588379
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8194,7 +7520,6 @@ GameObject:
   - component: {fileID: 776814775}
   - component: {fileID: 776814774}
   - component: {fileID: 776814772}
-  - component: {fileID: 776814773}
   m_Layer: 0
   m_Name: LuxuryTile9
   m_TagString: Untagged
@@ -8231,19 +7556,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &776814773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776814770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &776814774
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8389,7 +7701,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &808989041
 GameObject:
@@ -8584,7 +7896,6 @@ GameObject:
   - component: {fileID: 815740112}
   - component: {fileID: 815740111}
   - component: {fileID: 815740109}
-  - component: {fileID: 815740110}
   m_Layer: 0
   m_Name: Alleyway42
   m_TagString: Untagged
@@ -8621,19 +7932,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &815740110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815740107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &815740111
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8728,7 +8026,6 @@ GameObject:
   - component: {fileID: 816749367}
   - component: {fileID: 816749366}
   - component: {fileID: 816749364}
-  - component: {fileID: 816749365}
   m_Layer: 0
   m_Name: Street34
   m_TagString: Untagged
@@ -8765,19 +8062,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &816749365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816749362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &816749366
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8872,7 +8156,6 @@ GameObject:
   - component: {fileID: 834987329}
   - component: {fileID: 834987328}
   - component: {fileID: 834987326}
-  - component: {fileID: 834987327}
   m_Layer: 0
   m_Name: Alleyway2
   m_TagString: Untagged
@@ -8909,19 +8192,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &834987327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 834987324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &834987328
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9016,7 +8286,6 @@ GameObject:
   - component: {fileID: 843154029}
   - component: {fileID: 843154028}
   - component: {fileID: 843154026}
-  - component: {fileID: 843154027}
   m_Layer: 0
   m_Name: Alleyway26
   m_TagString: Untagged
@@ -9053,19 +8322,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &843154027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843154024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &843154028
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9190,7 +8446,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &854200826
 GameObject:
@@ -9205,7 +8461,6 @@ GameObject:
   - component: {fileID: 854200831}
   - component: {fileID: 854200830}
   - component: {fileID: 854200828}
-  - component: {fileID: 854200829}
   m_Layer: 0
   m_Name: Street6
   m_TagString: Untagged
@@ -9242,19 +8497,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &854200829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854200826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &854200830
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9483,7 +8725,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &874266945
 GameObject:
@@ -9498,7 +8740,6 @@ GameObject:
   - component: {fileID: 874266950}
   - component: {fileID: 874266949}
   - component: {fileID: 874266947}
-  - component: {fileID: 874266948}
   m_Layer: 0
   m_Name: Street31
   m_TagString: Untagged
@@ -9535,19 +8776,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &874266948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 874266945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &874266949
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9642,7 +8870,6 @@ GameObject:
   - component: {fileID: 875353214}
   - component: {fileID: 875353213}
   - component: {fileID: 875353211}
-  - component: {fileID: 875353212}
   m_Layer: 0
   m_Name: Street15
   m_TagString: Untagged
@@ -9679,19 +8906,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &875353212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875353209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &875353213
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9786,7 +9000,6 @@ GameObject:
   - component: {fileID: 878463484}
   - component: {fileID: 878463483}
   - component: {fileID: 878463481}
-  - component: {fileID: 878463482}
   m_Layer: 0
   m_Name: LuxuryTile13
   m_TagString: Untagged
@@ -9823,19 +9036,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &878463482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 878463479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &878463483
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9930,7 +9130,6 @@ GameObject:
   - component: {fileID: 879529586}
   - component: {fileID: 879529585}
   - component: {fileID: 879529583}
-  - component: {fileID: 879529584}
   m_Layer: 0
   m_Name: LuxuryTile22
   m_TagString: Untagged
@@ -9967,19 +9166,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &879529584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879529581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &879529585
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10074,7 +9260,6 @@ GameObject:
   - component: {fileID: 920561907}
   - component: {fileID: 920561906}
   - component: {fileID: 920561904}
-  - component: {fileID: 920561905}
   m_Layer: 0
   m_Name: Alleyway32
   m_TagString: Untagged
@@ -10111,19 +9296,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &920561905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 920561902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &920561906
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10218,7 +9390,6 @@ GameObject:
   - component: {fileID: 921211672}
   - component: {fileID: 921211671}
   - component: {fileID: 921211669}
-  - component: {fileID: 921211670}
   m_Layer: 0
   m_Name: Street58
   m_TagString: Untagged
@@ -10241,19 +9412,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &921211670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921211668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &921211671
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10455,84 +9613,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 921802733}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &934756092
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 934756093}
-  - component: {fileID: 934756095}
-  - component: {fileID: 934756094}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &934756093
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 934756092}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1033023710}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &934756094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 934756092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Build BuildingF
---- !u!222 &934756095
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 934756092}
-  m_CullTransparentMesh: 0
 --- !u!1 &968450294
 GameObject:
   m_ObjectHideFlags: 0
@@ -10546,7 +9626,6 @@ GameObject:
   - component: {fileID: 968450298}
   - component: {fileID: 968450297}
   - component: {fileID: 968450295}
-  - component: {fileID: 968450296}
   m_Layer: 0
   m_Name: Street46
   m_TagString: Untagged
@@ -10569,19 +9648,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &968450296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968450294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &968450297
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10690,7 +9756,6 @@ GameObject:
   - component: {fileID: 977509240}
   - component: {fileID: 977509239}
   - component: {fileID: 977509237}
-  - component: {fileID: 977509238}
   m_Layer: 0
   m_Name: Street8
   m_TagString: Untagged
@@ -10727,19 +9792,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &977509238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 977509235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &977509239
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10834,7 +9886,6 @@ GameObject:
   - component: {fileID: 1003008465}
   - component: {fileID: 1003008464}
   - component: {fileID: 1003008462}
-  - component: {fileID: 1003008463}
   m_Layer: 0
   m_Name: Alleyway30
   m_TagString: Untagged
@@ -10871,19 +9922,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1003008463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003008460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1003008464
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11084,7 +10122,6 @@ GameObject:
   - component: {fileID: 1006258838}
   - component: {fileID: 1006258837}
   - component: {fileID: 1006258835}
-  - component: {fileID: 1006258836}
   m_Layer: 0
   m_Name: Alleyway35
   m_TagString: Untagged
@@ -11121,19 +10158,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1006258836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006258833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1006258837
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11321,136 +10345,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1015032650}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1033023709
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1033023710}
-  - component: {fileID: 1033023713}
-  - component: {fileID: 1033023712}
-  - component: {fileID: 1033023711}
-  m_Layer: 5
-  m_Name: BuildingF
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1033023710
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033023709}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 934756093}
-  m_Father: {fileID: 2143494419}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1033023711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033023709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1033023712}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1904985604}
-        m_MethodName: create_building_f
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1033023712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033023709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1033023713
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033023709}
-  m_CullTransparentMesh: 0
 --- !u!1001 &1033694164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11570,7 +10464,6 @@ GameObject:
   - component: {fileID: 1035070163}
   - component: {fileID: 1035070162}
   - component: {fileID: 1035070160}
-  - component: {fileID: 1035070161}
   m_Layer: 0
   m_Name: Alleyway3
   m_TagString: Untagged
@@ -11607,19 +10500,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1035070161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035070158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1035070162
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11714,7 +10594,6 @@ GameObject:
   - component: {fileID: 1051492477}
   - component: {fileID: 1051492476}
   - component: {fileID: 1051492474}
-  - component: {fileID: 1051492475}
   m_Layer: 0
   m_Name: Alleyway25
   m_TagString: Untagged
@@ -11751,19 +10630,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1051492475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051492472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1051492476
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12070,7 +10936,6 @@ GameObject:
   - component: {fileID: 1101259592}
   - component: {fileID: 1101259591}
   - component: {fileID: 1101259589}
-  - component: {fileID: 1101259590}
   m_Layer: 0
   m_Name: Street67
   m_TagString: Untagged
@@ -12093,19 +10958,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1101259590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101259588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1101259591
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12214,7 +11066,6 @@ GameObject:
   - component: {fileID: 1111266292}
   - component: {fileID: 1111266291}
   - component: {fileID: 1111266289}
-  - component: {fileID: 1111266290}
   m_Layer: 0
   m_Name: Street53
   m_TagString: Untagged
@@ -12237,19 +11088,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1111266290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1111266288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1111266291
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12358,7 +11196,6 @@ GameObject:
   - component: {fileID: 1113197991}
   - component: {fileID: 1113197990}
   - component: {fileID: 1113197988}
-  - component: {fileID: 1113197989}
   m_Layer: 0
   m_Name: LuxuryTile16
   m_TagString: Untagged
@@ -12395,19 +11232,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1113197989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113197986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1113197990
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12820,7 +11644,6 @@ GameObject:
   - component: {fileID: 1129115473}
   - component: {fileID: 1129115472}
   - component: {fileID: 1129115470}
-  - component: {fileID: 1129115471}
   m_Layer: 0
   m_Name: Street9
   m_TagString: Untagged
@@ -12857,19 +11680,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1129115471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129115468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1129115472
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12964,7 +11774,6 @@ GameObject:
   - component: {fileID: 1131267200}
   - component: {fileID: 1131267199}
   - component: {fileID: 1131267197}
-  - component: {fileID: 1131267198}
   m_Layer: 0
   m_Name: Street42
   m_TagString: Untagged
@@ -12987,19 +11796,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1131267198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131267196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1131267199
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13214,7 +12010,6 @@ GameObject:
   - component: {fileID: 1177930494}
   - component: {fileID: 1177930493}
   - component: {fileID: 1177930491}
-  - component: {fileID: 1177930492}
   m_Layer: 0
   m_Name: LuxuryTile18
   m_TagString: Untagged
@@ -13251,19 +12046,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1177930492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1177930489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1177930493
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13358,7 +12140,6 @@ GameObject:
   - component: {fileID: 1219925869}
   - component: {fileID: 1219925868}
   - component: {fileID: 1219925866}
-  - component: {fileID: 1219925867}
   m_Layer: 0
   m_Name: Street17
   m_TagString: Untagged
@@ -13395,19 +12176,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1219925867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1219925864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1219925868
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13502,7 +12270,6 @@ GameObject:
   - component: {fileID: 1220170410}
   - component: {fileID: 1220170409}
   - component: {fileID: 1220170407}
-  - component: {fileID: 1220170408}
   m_Layer: 0
   m_Name: LuxuryTile6
   m_TagString: Untagged
@@ -13539,19 +12306,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1220170408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1220170405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1220170409
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13646,7 +12400,6 @@ GameObject:
   - component: {fileID: 1221300595}
   - component: {fileID: 1221300594}
   - component: {fileID: 1221300592}
-  - component: {fileID: 1221300593}
   m_Layer: 0
   m_Name: Alleyway1
   m_TagString: Untagged
@@ -13683,19 +12436,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1221300593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221300590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1221300594
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13896,7 +12636,6 @@ GameObject:
   - component: {fileID: 1252082957}
   - component: {fileID: 1252082956}
   - component: {fileID: 1252082954}
-  - component: {fileID: 1252082955}
   m_Layer: 0
   m_Name: Alleyway29
   m_TagString: Untagged
@@ -13933,19 +12672,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1252082955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252082952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1252082956
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14040,7 +12766,6 @@ GameObject:
   - component: {fileID: 1254845996}
   - component: {fileID: 1254845995}
   - component: {fileID: 1254845993}
-  - component: {fileID: 1254845994}
   m_Layer: 0
   m_Name: Street65
   m_TagString: Untagged
@@ -14063,19 +12788,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1254845994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254845992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1254845995
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14184,7 +12896,6 @@ GameObject:
   - component: {fileID: 1284608861}
   - component: {fileID: 1284608860}
   - component: {fileID: 1284608858}
-  - component: {fileID: 1284608859}
   m_Layer: 0
   m_Name: LuxuryTile20
   m_TagString: Untagged
@@ -14221,19 +12932,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1284608859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284608856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1284608860
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14434,7 +13132,6 @@ GameObject:
   - component: {fileID: 1309419889}
   - component: {fileID: 1309419888}
   - component: {fileID: 1309419886}
-  - component: {fileID: 1309419887}
   m_Layer: 0
   m_Name: Street18
   m_TagString: Untagged
@@ -14471,19 +13168,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1309419887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309419884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1309419888
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14578,7 +13262,6 @@ GameObject:
   - component: {fileID: 1343471166}
   - component: {fileID: 1343471165}
   - component: {fileID: 1343471163}
-  - component: {fileID: 1343471164}
   m_Layer: 0
   m_Name: Street27
   m_TagString: Untagged
@@ -14615,19 +13298,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1343471164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1343471161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1343471165
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14722,7 +13392,6 @@ GameObject:
   - component: {fileID: 1356182845}
   - component: {fileID: 1356182844}
   - component: {fileID: 1356182842}
-  - component: {fileID: 1356182843}
   m_Layer: 0
   m_Name: Street19
   m_TagString: Untagged
@@ -14759,19 +13428,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1356182843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356182840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1356182844
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14866,7 +13522,6 @@ GameObject:
   - component: {fileID: 1367227584}
   - component: {fileID: 1367227583}
   - component: {fileID: 1367227581}
-  - component: {fileID: 1367227582}
   m_Layer: 0
   m_Name: Street4
   m_TagString: Untagged
@@ -14903,19 +13558,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1367227582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367227579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1367227583
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15010,7 +13652,6 @@ GameObject:
   - component: {fileID: 1369484283}
   - component: {fileID: 1369484282}
   - component: {fileID: 1369484280}
-  - component: {fileID: 1369484281}
   m_Layer: 0
   m_Name: Street23
   m_TagString: Untagged
@@ -15047,19 +13688,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1369484281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369484278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1369484282
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15154,7 +13782,6 @@ GameObject:
   - component: {fileID: 1371235952}
   - component: {fileID: 1371235951}
   - component: {fileID: 1371235949}
-  - component: {fileID: 1371235950}
   m_Layer: 0
   m_Name: Street51
   m_TagString: Untagged
@@ -15177,19 +13804,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1371235950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371235948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1371235951
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15298,7 +13912,6 @@ GameObject:
   - component: {fileID: 1372297239}
   - component: {fileID: 1372297238}
   - component: {fileID: 1372297236}
-  - component: {fileID: 1372297237}
   m_Layer: 0
   m_Name: Street14
   m_TagString: Untagged
@@ -15335,19 +13948,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1372297237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372297234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1372297238
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15442,7 +14042,6 @@ GameObject:
   - component: {fileID: 1383222371}
   - component: {fileID: 1383222370}
   - component: {fileID: 1383222368}
-  - component: {fileID: 1383222369}
   m_Layer: 0
   m_Name: Street41
   m_TagString: Untagged
@@ -15465,19 +14064,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1383222369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383222367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1383222370
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15586,7 +14172,6 @@ GameObject:
   - component: {fileID: 1387048860}
   - component: {fileID: 1387048859}
   - component: {fileID: 1387048857}
-  - component: {fileID: 1387048858}
   m_Layer: 0
   m_Name: Street43
   m_TagString: Untagged
@@ -15609,19 +14194,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1387048858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387048856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1387048859
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15730,7 +14302,6 @@ GameObject:
   - component: {fileID: 1392087521}
   - component: {fileID: 1392087520}
   - component: {fileID: 1392087518}
-  - component: {fileID: 1392087519}
   m_Layer: 0
   m_Name: Street1
   m_TagString: Untagged
@@ -15767,19 +14338,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1392087519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392087516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1392087520
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15874,7 +14432,6 @@ GameObject:
   - component: {fileID: 1412996189}
   - component: {fileID: 1412996188}
   - component: {fileID: 1412996186}
-  - component: {fileID: 1412996187}
   m_Layer: 0
   m_Name: Street11
   m_TagString: Untagged
@@ -15911,19 +14468,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1412996187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1412996184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1412996188
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16018,7 +14562,6 @@ GameObject:
   - component: {fileID: 1434828840}
   - component: {fileID: 1434828839}
   - component: {fileID: 1434828837}
-  - component: {fileID: 1434828838}
   m_Layer: 0
   m_Name: Alleyway22
   m_TagString: Untagged
@@ -16055,19 +14598,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1434828838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434828835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1434828839
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16162,7 +14692,6 @@ GameObject:
   - component: {fileID: 1438769228}
   - component: {fileID: 1438769227}
   - component: {fileID: 1438769225}
-  - component: {fileID: 1438769226}
   m_Layer: 0
   m_Name: Street45
   m_TagString: Untagged
@@ -16185,19 +14714,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1438769226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1438769224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1438769227
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16306,7 +14822,6 @@ GameObject:
   - component: {fileID: 1458648758}
   - component: {fileID: 1458648757}
   - component: {fileID: 1458648755}
-  - component: {fileID: 1458648756}
   m_Layer: 0
   m_Name: Street25
   m_TagString: Untagged
@@ -16343,19 +14858,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1458648756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1458648753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1458648757
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16450,7 +14952,6 @@ GameObject:
   - component: {fileID: 1463476985}
   - component: {fileID: 1463476984}
   - component: {fileID: 1463476982}
-  - component: {fileID: 1463476983}
   m_Layer: 0
   m_Name: Street38
   m_TagString: Untagged
@@ -16473,19 +14974,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1463476983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463476981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1463476984
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16594,7 +15082,6 @@ GameObject:
   - component: {fileID: 1472316963}
   - component: {fileID: 1472316962}
   - component: {fileID: 1472316960}
-  - component: {fileID: 1472316961}
   m_Layer: 0
   m_Name: LuxuryTile10
   m_TagString: Untagged
@@ -16631,19 +15118,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1472316961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1472316958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1472316962
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16738,7 +15212,6 @@ GameObject:
   - component: {fileID: 1474505276}
   - component: {fileID: 1474505275}
   - component: {fileID: 1474505273}
-  - component: {fileID: 1474505274}
   m_Layer: 0
   m_Name: LuxuryTile7
   m_TagString: Untagged
@@ -16775,19 +15248,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1474505274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474505271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1474505275
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16882,7 +15342,6 @@ GameObject:
   - component: {fileID: 1483819557}
   - component: {fileID: 1483819556}
   - component: {fileID: 1483819554}
-  - component: {fileID: 1483819555}
   m_Layer: 0
   m_Name: Alleyway37
   m_TagString: Untagged
@@ -16919,19 +15378,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1483819555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483819552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1483819556
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17026,7 +15472,6 @@ GameObject:
   - component: {fileID: 1518395548}
   - component: {fileID: 1518395547}
   - component: {fileID: 1518395545}
-  - component: {fileID: 1518395546}
   m_Layer: 0
   m_Name: Alleyway13
   m_TagString: Untagged
@@ -17063,19 +15508,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1518395546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518395543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1518395547
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17170,7 +15602,6 @@ GameObject:
   - component: {fileID: 1527829690}
   - component: {fileID: 1527829689}
   - component: {fileID: 1527829687}
-  - component: {fileID: 1527829688}
   m_Layer: 0
   m_Name: Street20
   m_TagString: Untagged
@@ -17207,19 +15638,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1527829688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527829685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1527829689
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17314,7 +15732,6 @@ GameObject:
   - component: {fileID: 1528536359}
   - component: {fileID: 1528536358}
   - component: {fileID: 1528536356}
-  - component: {fileID: 1528536357}
   m_Layer: 0
   m_Name: Alleyway28
   m_TagString: Untagged
@@ -17351,19 +15768,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1528536357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528536354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1528536358
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17458,7 +15862,6 @@ GameObject:
   - component: {fileID: 1537618747}
   - component: {fileID: 1537618746}
   - component: {fileID: 1537618744}
-  - component: {fileID: 1537618745}
   m_Layer: 0
   m_Name: Street26
   m_TagString: Untagged
@@ -17495,19 +15898,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1537618745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537618742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1537618746
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17602,7 +15992,6 @@ GameObject:
   - component: {fileID: 1544332833}
   - component: {fileID: 1544332832}
   - component: {fileID: 1544332830}
-  - component: {fileID: 1544332831}
   m_Layer: 0
   m_Name: Alleyway36
   m_TagString: Untagged
@@ -17639,19 +16028,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1544332831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544332828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1544332832
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17746,7 +16122,6 @@ GameObject:
   - component: {fileID: 1556157773}
   - component: {fileID: 1556157772}
   - component: {fileID: 1556157770}
-  - component: {fileID: 1556157771}
   m_Layer: 0
   m_Name: Alleyway4
   m_TagString: Untagged
@@ -17783,19 +16158,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1556157771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556157768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1556157772
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17890,7 +16252,6 @@ GameObject:
   - component: {fileID: 1560027477}
   - component: {fileID: 1560027476}
   - component: {fileID: 1560027474}
-  - component: {fileID: 1560027475}
   m_Layer: 0
   m_Name: Alleyway39
   m_TagString: Untagged
@@ -17927,19 +16288,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1560027475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560027472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1560027476
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18140,7 +16488,6 @@ GameObject:
   - component: {fileID: 1601287519}
   - component: {fileID: 1601287518}
   - component: {fileID: 1601287516}
-  - component: {fileID: 1601287517}
   m_Layer: 0
   m_Name: Street35
   m_TagString: Untagged
@@ -18177,19 +16524,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1601287517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601287514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1601287518
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18284,7 +16618,6 @@ GameObject:
   - component: {fileID: 1608198562}
   - component: {fileID: 1608198561}
   - component: {fileID: 1608198559}
-  - component: {fileID: 1608198560}
   m_Layer: 0
   m_Name: Alleyway6
   m_TagString: Untagged
@@ -18321,19 +16654,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1608198560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1608198557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1608198561
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18428,7 +16748,6 @@ GameObject:
   - component: {fileID: 1619466167}
   - component: {fileID: 1619466166}
   - component: {fileID: 1619466164}
-  - component: {fileID: 1619466165}
   m_Layer: 0
   m_Name: Street24
   m_TagString: Untagged
@@ -18465,19 +16784,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1619466165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619466162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1619466166
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18572,7 +16878,6 @@ GameObject:
   - component: {fileID: 1622642433}
   - component: {fileID: 1622642432}
   - component: {fileID: 1622642430}
-  - component: {fileID: 1622642431}
   m_Layer: 0
   m_Name: Street61
   m_TagString: Untagged
@@ -18595,19 +16900,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1622642431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622642429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1622642432
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18822,7 +17114,6 @@ GameObject:
   - component: {fileID: 1635473449}
   - component: {fileID: 1635473448}
   - component: {fileID: 1635473446}
-  - component: {fileID: 1635473447}
   m_Layer: 0
   m_Name: Street39
   m_TagString: Untagged
@@ -18845,19 +17136,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1635473447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635473445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1635473448
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18966,7 +17244,6 @@ GameObject:
   - component: {fileID: 1637529938}
   - component: {fileID: 1637529937}
   - component: {fileID: 1637529935}
-  - component: {fileID: 1637529936}
   m_Layer: 0
   m_Name: LuxuryTile2
   m_TagString: Untagged
@@ -19003,19 +17280,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1637529936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637529933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1637529937
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19110,7 +17374,6 @@ GameObject:
   - component: {fileID: 1656049371}
   - component: {fileID: 1656049370}
   - component: {fileID: 1656049368}
-  - component: {fileID: 1656049369}
   m_Layer: 0
   m_Name: Street59
   m_TagString: Untagged
@@ -19133,19 +17396,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1656049369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656049367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1656049370
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19254,7 +17504,6 @@ GameObject:
   - component: {fileID: 1660986846}
   - component: {fileID: 1660986845}
   - component: {fileID: 1660986843}
-  - component: {fileID: 1660986844}
   m_Layer: 0
   m_Name: LuxuryTile0
   m_TagString: Untagged
@@ -19291,19 +17540,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1660986844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660986841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1660986845
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19398,7 +17634,6 @@ GameObject:
   - component: {fileID: 1667687639}
   - component: {fileID: 1667687638}
   - component: {fileID: 1667687636}
-  - component: {fileID: 1667687637}
   m_Layer: 0
   m_Name: Alleyway9
   m_TagString: Untagged
@@ -19435,19 +17670,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1667687637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1667687634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1667687638
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19542,7 +17764,6 @@ GameObject:
   - component: {fileID: 1668170627}
   - component: {fileID: 1668170626}
   - component: {fileID: 1668170624}
-  - component: {fileID: 1668170625}
   m_Layer: 0
   m_Name: Street70
   m_TagString: Untagged
@@ -19565,19 +17786,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1668170625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1668170623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1668170626
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19686,7 +17894,6 @@ GameObject:
   - component: {fileID: 1674417465}
   - component: {fileID: 1674417464}
   - component: {fileID: 1674417462}
-  - component: {fileID: 1674417463}
   m_Layer: 0
   m_Name: Street36
   m_TagString: Untagged
@@ -19709,19 +17916,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1674417463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674417461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1674417464
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19830,7 +18024,6 @@ GameObject:
   - component: {fileID: 1684288619}
   - component: {fileID: 1684288618}
   - component: {fileID: 1684288616}
-  - component: {fileID: 1684288617}
   m_Layer: 0
   m_Name: Alleyway31
   m_TagString: Untagged
@@ -19867,19 +18060,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1684288617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684288614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1684288618
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19974,7 +18154,6 @@ GameObject:
   - component: {fileID: 1699515910}
   - component: {fileID: 1699515909}
   - component: {fileID: 1699515907}
-  - component: {fileID: 1699515908}
   m_Layer: 0
   m_Name: Alleyway0
   m_TagString: Untagged
@@ -20011,19 +18190,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1699515908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699515905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1699515909
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20118,7 +18284,6 @@ GameObject:
   - component: {fileID: 1699657982}
   - component: {fileID: 1699657981}
   - component: {fileID: 1699657979}
-  - component: {fileID: 1699657980}
   m_Layer: 0
   m_Name: Alleyway34
   m_TagString: Untagged
@@ -20155,19 +18320,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1699657980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699657977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1699657981
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20249,84 +18401,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 1
---- !u!1 &1700897562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1700897563}
-  - component: {fileID: 1700897565}
-  - component: {fileID: 1700897564}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1700897563
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700897562}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1983825452}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1700897564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700897562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Build BuildingG
---- !u!222 &1700897565
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700897562}
-  m_CullTransparentMesh: 0
 --- !u!1 &1714636312
 GameObject:
   m_ObjectHideFlags: 0
@@ -20351,7 +18425,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714636312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.5017967, y: -18.256344, z: -4.539494}
+  m_LocalPosition: {x: -4.5017967, y: -18.5, z: -4.539494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2894567684421565680}
@@ -20414,7 +18488,6 @@ GameObject:
   - component: {fileID: 1728262518}
   - component: {fileID: 1728262517}
   - component: {fileID: 1728262515}
-  - component: {fileID: 1728262516}
   m_Layer: 0
   m_Name: Street50
   m_TagString: Untagged
@@ -20437,19 +18510,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1728262516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728262514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1728262517
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20558,7 +18618,6 @@ GameObject:
   - component: {fileID: 1728444382}
   - component: {fileID: 1728444381}
   - component: {fileID: 1728444379}
-  - component: {fileID: 1728444380}
   m_Layer: 0
   m_Name: LuxuryTile17
   m_TagString: Untagged
@@ -20595,19 +18654,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1728444380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728444377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1728444381
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20702,7 +18748,6 @@ GameObject:
   - component: {fileID: 1734815417}
   - component: {fileID: 1734815416}
   - component: {fileID: 1734815414}
-  - component: {fileID: 1734815415}
   m_Layer: 0
   m_Name: Street54
   m_TagString: Untagged
@@ -20725,19 +18770,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1734815415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734815413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1734815416
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20952,7 +18984,6 @@ GameObject:
   - component: {fileID: 1750201977}
   - component: {fileID: 1750201976}
   - component: {fileID: 1750201974}
-  - component: {fileID: 1750201975}
   m_Layer: 0
   m_Name: Street48
   m_TagString: Untagged
@@ -20975,19 +19006,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1750201975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750201973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1750201976
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21096,7 +19114,6 @@ GameObject:
   - component: {fileID: 1752374784}
   - component: {fileID: 1752374783}
   - component: {fileID: 1752374781}
-  - component: {fileID: 1752374782}
   m_Layer: 0
   m_Name: Alleyway11
   m_TagString: Untagged
@@ -21133,19 +19150,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1752374782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1752374779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1752374783
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21240,7 +19244,6 @@ GameObject:
   - component: {fileID: 1762093862}
   - component: {fileID: 1762093861}
   - component: {fileID: 1762093859}
-  - component: {fileID: 1762093860}
   m_Layer: 0
   m_Name: Alleyway21
   m_TagString: Untagged
@@ -21277,19 +19280,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1762093860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762093857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1762093861
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21384,7 +19374,6 @@ GameObject:
   - component: {fileID: 1764215030}
   - component: {fileID: 1764215029}
   - component: {fileID: 1764215027}
-  - component: {fileID: 1764215028}
   m_Layer: 0
   m_Name: Street63
   m_TagString: Untagged
@@ -21407,19 +19396,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1764215028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764215026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1764215029
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21528,7 +19504,6 @@ GameObject:
   - component: {fileID: 1778127294}
   - component: {fileID: 1778127293}
   - component: {fileID: 1778127291}
-  - component: {fileID: 1778127292}
   m_Layer: 0
   m_Name: Street10
   m_TagString: Untagged
@@ -21565,19 +19540,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1778127292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778127289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1778127293
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21672,7 +19634,6 @@ GameObject:
   - component: {fileID: 1781766413}
   - component: {fileID: 1781766412}
   - component: {fileID: 1781766410}
-  - component: {fileID: 1781766411}
   m_Layer: 0
   m_Name: LuxuryTile3
   m_TagString: Untagged
@@ -21709,19 +19670,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1781766411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781766408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1781766412
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21816,7 +19764,6 @@ GameObject:
   - component: {fileID: 1790021773}
   - component: {fileID: 1790021772}
   - component: {fileID: 1790021770}
-  - component: {fileID: 1790021771}
   m_Layer: 0
   m_Name: Street12
   m_TagString: Untagged
@@ -21853,19 +19800,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1790021771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790021768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1790021772
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21960,7 +19894,6 @@ GameObject:
   - component: {fileID: 1795991475}
   - component: {fileID: 1795991474}
   - component: {fileID: 1795991472}
-  - component: {fileID: 1795991473}
   m_Layer: 0
   m_Name: Street40
   m_TagString: Untagged
@@ -21983,19 +19916,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1795991473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795991471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1795991474
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22210,7 +20130,6 @@ GameObject:
   - component: {fileID: 1811818715}
   - component: {fileID: 1811818714}
   - component: {fileID: 1811818712}
-  - component: {fileID: 1811818713}
   m_Layer: 0
   m_Name: Street30
   m_TagString: Untagged
@@ -22247,19 +20166,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1811818713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1811818710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1811818714
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22460,7 +20366,6 @@ GameObject:
   - component: {fileID: 1828539099}
   - component: {fileID: 1828539098}
   - component: {fileID: 1828539096}
-  - component: {fileID: 1828539097}
   m_Layer: 0
   m_Name: Street49
   m_TagString: Untagged
@@ -22483,19 +20388,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1828539097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828539095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1828539098
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22604,7 +20496,6 @@ GameObject:
   - component: {fileID: 1855940917}
   - component: {fileID: 1855940916}
   - component: {fileID: 1855940914}
-  - component: {fileID: 1855940915}
   m_Layer: 0
   m_Name: Alleyway12
   m_TagString: Untagged
@@ -22641,19 +20532,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1855940915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855940912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1855940916
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22735,84 +20613,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 1
---- !u!1 &1859193865
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1859193866}
-  - component: {fileID: 1859193868}
-  - component: {fileID: 1859193867}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1859193866
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859193865}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 383798382}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1859193867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859193865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Place Tile
---- !u!222 &1859193868
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859193865}
-  m_CullTransparentMesh: 0
 --- !u!1 &1865576195
 GameObject:
   m_ObjectHideFlags: 0
@@ -22826,7 +20626,6 @@ GameObject:
   - component: {fileID: 1865576200}
   - component: {fileID: 1865576199}
   - component: {fileID: 1865576197}
-  - component: {fileID: 1865576198}
   m_Layer: 0
   m_Name: Alleyway8
   m_TagString: Untagged
@@ -22863,19 +20662,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1865576198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865576195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1865576199
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22970,7 +20756,6 @@ GameObject:
   - component: {fileID: 1882256329}
   - component: {fileID: 1882256328}
   - component: {fileID: 1882256326}
-  - component: {fileID: 1882256327}
   m_Layer: 0
   m_Name: Street69
   m_TagString: Untagged
@@ -22993,19 +20778,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1882256327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1882256325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1882256328
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23114,7 +20886,6 @@ GameObject:
   - component: {fileID: 1895819361}
   - component: {fileID: 1895819360}
   - component: {fileID: 1895819358}
-  - component: {fileID: 1895819359}
   m_Layer: 0
   m_Name: Alleyway10
   m_TagString: Untagged
@@ -23151,19 +20922,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1895819359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895819356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1895819360
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23254,7 +21012,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1904985605}
-  - component: {fileID: 1904985604}
   m_Layer: 0
   m_Name: Tiles
   m_TagString: Untagged
@@ -23262,28 +21019,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1904985604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904985603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9523009914384b00bf5137eff82b27a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_f: 0
-  building_g: 0
-  is_tile: 0
-  prefab_buildingG: {fileID: 603721159314323397, guid: 52e3751d8c215455da0b26920ce970f7,
-    type: 3}
-  prefab_buildingF: {fileID: 7857171687986891164, guid: 5e8caa89b64fb453f8321afbb9c9196d,
-    type: 3}
-  tile: {fileID: 383798383}
-  button_f: {fileID: 1033023711}
-  button_g: {fileID: 1983825453}
 --- !u!4 &1904985605
 Transform:
   m_ObjectHideFlags: 0
@@ -23469,7 +21204,6 @@ GameObject:
   - component: {fileID: 1926621753}
   - component: {fileID: 1926621752}
   - component: {fileID: 1926621750}
-  - component: {fileID: 1926621751}
   m_Layer: 0
   m_Name: Street33
   m_TagString: Untagged
@@ -23506,19 +21240,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1926621751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926621748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1926621752
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23613,7 +21334,6 @@ GameObject:
   - component: {fileID: 1938567683}
   - component: {fileID: 1938567682}
   - component: {fileID: 1938567680}
-  - component: {fileID: 1938567681}
   m_Layer: 0
   m_Name: Street3
   m_TagString: Untagged
@@ -23650,19 +21370,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1938567681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938567678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1938567682
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23863,7 +21570,6 @@ GameObject:
   - component: {fileID: 1945909015}
   - component: {fileID: 1945909014}
   - component: {fileID: 1945909012}
-  - component: {fileID: 1945909013}
   m_Layer: 0
   m_Name: LuxuryTile21
   m_TagString: Untagged
@@ -23900,19 +21606,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1945909013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945909010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1945909014
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24113,7 +21806,6 @@ GameObject:
   - component: {fileID: 1954462216}
   - component: {fileID: 1954462215}
   - component: {fileID: 1954462213}
-  - component: {fileID: 1954462214}
   m_Layer: 0
   m_Name: Alleyway5
   m_TagString: Untagged
@@ -24150,19 +21842,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1954462214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954462211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1954462215
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24244,136 +21923,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 1
---- !u!1 &1983825451
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1983825452}
-  - component: {fileID: 1983825455}
-  - component: {fileID: 1983825454}
-  - component: {fileID: 1983825453}
-  m_Layer: 5
-  m_Name: BuildingG
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1983825452
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983825451}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1700897563}
-  m_Father: {fileID: 2143494419}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 119.799805, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1983825453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983825451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1983825454}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1904985604}
-        m_MethodName: create_building_g
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1983825454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983825451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1983825455
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983825451}
-  m_CullTransparentMesh: 0
 --- !u!1 &1985501310
 GameObject:
   m_ObjectHideFlags: 0
@@ -24387,7 +21936,6 @@ GameObject:
   - component: {fileID: 1985501314}
   - component: {fileID: 1985501313}
   - component: {fileID: 1985501311}
-  - component: {fileID: 1985501312}
   m_Layer: 0
   m_Name: Street47
   m_TagString: Untagged
@@ -24410,19 +21958,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1985501312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985501310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1985501313
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24531,7 +22066,6 @@ GameObject:
   - component: {fileID: 1991265877}
   - component: {fileID: 1991265876}
   - component: {fileID: 1991265874}
-  - component: {fileID: 1991265875}
   m_Layer: 0
   m_Name: Street66
   m_TagString: Untagged
@@ -24554,19 +22088,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1991265875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991265873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1991265876
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24675,7 +22196,6 @@ GameObject:
   - component: {fileID: 1994698748}
   - component: {fileID: 1994698747}
   - component: {fileID: 1994698745}
-  - component: {fileID: 1994698746}
   m_Layer: 0
   m_Name: LuxuryTile11
   m_TagString: Untagged
@@ -24712,19 +22232,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1994698746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994698743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1994698747
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24819,7 +22326,6 @@ GameObject:
   - component: {fileID: 1998639165}
   - component: {fileID: 1998639164}
   - component: {fileID: 1998639162}
-  - component: {fileID: 1998639163}
   m_Layer: 0
   m_Name: LuxuryTile4
   m_TagString: Untagged
@@ -24856,19 +22362,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &1998639163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998639160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &1998639164
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24963,7 +22456,6 @@ GameObject:
   - component: {fileID: 2016317510}
   - component: {fileID: 2016317509}
   - component: {fileID: 2016317507}
-  - component: {fileID: 2016317508}
   m_Layer: 0
   m_Name: Street29
   m_TagString: Untagged
@@ -25000,19 +22492,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &2016317508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016317505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &2016317509
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25425,7 +22904,6 @@ GameObject:
   - component: {fileID: 2055982751}
   - component: {fileID: 2055982750}
   - component: {fileID: 2055982748}
-  - component: {fileID: 2055982749}
   m_Layer: 0
   m_Name: LuxuryTile15
   m_TagString: Untagged
@@ -25462,19 +22940,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &2055982749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055982746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &2055982750
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25569,7 +23034,6 @@ GameObject:
   - component: {fileID: 2085360247}
   - component: {fileID: 2085360246}
   - component: {fileID: 2085360244}
-  - component: {fileID: 2085360245}
   m_Layer: 0
   m_Name: Alleyway15
   m_TagString: Untagged
@@ -25606,19 +23070,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &2085360245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085360242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &2085360246
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25713,7 +23164,6 @@ GameObject:
   - component: {fileID: 2098623150}
   - component: {fileID: 2098623149}
   - component: {fileID: 2098623147}
-  - component: {fileID: 2098623148}
   m_Layer: 0
   m_Name: Alleyway7
   m_TagString: Untagged
@@ -25750,19 +23200,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &2098623148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2098623145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &2098623149
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25857,7 +23294,6 @@ GameObject:
   - component: {fileID: 2116981289}
   - component: {fileID: 2116981288}
   - component: {fileID: 2116981286}
-  - component: {fileID: 2116981287}
   m_Layer: 0
   m_Name: Street7
   m_TagString: Untagged
@@ -25894,19 +23330,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &2116981287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2116981284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &2116981288
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26001,7 +23424,6 @@ GameObject:
   - component: {fileID: 2135955935}
   - component: {fileID: 2135955934}
   - component: {fileID: 2135955932}
-  - component: {fileID: 2135955933}
   m_Layer: 0
   m_Name: Alleyway19
   m_TagString: Untagged
@@ -26038,19 +23460,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14150941, g: 0.08610714, b: 0.08610714, a: 0.8666667}
   m_EffectDistance: {x: 5, y: 5}
   m_UseGraphicAlpha: 1
---- !u!114 &2135955933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135955930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e16742bb7a48c8a834e821ccfb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building_placed: 
 --- !u!58 &2135955934
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26132,107 +23541,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 1
---- !u!1 &2143494415
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2143494419}
-  - component: {fileID: 2143494418}
-  - component: {fileID: 2143494417}
-  - component: {fileID: 2143494416}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2143494416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143494415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &2143494417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143494415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &2143494418
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143494415}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &2143494419
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143494415}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 1033023710}
-  - {fileID: 1983825452}
-  - {fileID: 383798382}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &2894567684421565674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26309,6 +23617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoadTile
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687050100938027787, guid: e0ef08a41831245cba8b44432434cc28,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0ef08a41831245cba8b44432434cc28, type: 3}

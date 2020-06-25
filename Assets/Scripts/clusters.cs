@@ -48,8 +48,10 @@ public class clusters : MonoBehaviour
                 temp_bots.Add(random_bot);
             }
         }
-
-        variable.Land.Add(area, temp_bots);
+       
+            variable.Land.Add(area, temp_bots);
+        
+            
     }
 
     public void assign_clusters() 
@@ -86,7 +88,7 @@ public class clusters : MonoBehaviour
                     {
                         count++;
                     }
-                    variable.Luxury_cluster.Add(kvpi.Key, count);
+                        variable.Luxury_cluster.Add(kvpi.Key, count);
                 }
             }
 
@@ -101,7 +103,7 @@ public class clusters : MonoBehaviour
                     {
                         count++;
                     }
-                    variable.Alleyway_cluster.Add(kvpi.Key, count);
+                        variable.Alleyway_cluster.Add(kvpi.Key, count);
                 }
             }
 
@@ -116,7 +118,7 @@ public class clusters : MonoBehaviour
                     {
                         count++;
                     }
-                    variable.Street_cluster.Add(kvpi.Key, count);
+                        variable.Street_cluster.Add(kvpi.Key, count);
                 }
             }
         }

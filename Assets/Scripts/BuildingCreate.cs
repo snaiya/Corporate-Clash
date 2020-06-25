@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BuildingCreate : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class BuildingCreate : MonoBehaviour
    public Button tile;
    public Button button_f;
    public Button button_g;
-   float timeLeft = 30.0f;
+   float timeLeft = 10.0f;
    public Text startText;
    public Text money;
    public Text location;
@@ -36,17 +37,21 @@ public class BuildingCreate : MonoBehaviour
             
             sample s1 = new sample();
             s1.New();
-
-             foreach (KeyValuePair<string, List<GameObject>> kvp in variable.Player1)
+            if(variable.Player1!=null)
+            {
+                foreach (KeyValuePair<string, List<GameObject>> kvp in variable.Player1)
                 {
                     //Debug.Log(kvp.Key);
 
                     foreach (GameObject g in kvp.Value)
                     {
-                        player1_permit.Add(g.name);
+                            Debug.Log(g.name);
+                            player1_permit.Add(g.name);
                         
                     }
                 }
+            }
+             
            
             
      }
@@ -66,9 +71,13 @@ public class BuildingCreate : MonoBehaviour
             location.gameObject.SetActive(true);
             location.text = hit.collider.transform.parent.name;
         }
-
+        //  if (timeLeft < 0.0f)
+        // {
+        //     SceneManager.LoadScene("Consumption Phase");
+        // }
         if (timeLeft < 0.0f)
         {
+            
             enabled = false;
             //Call the consumer phase code here and change the value he recieved in money.
             // Debug.Log("Countdown: " + timeLeft);

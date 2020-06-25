@@ -39,6 +39,8 @@ Debug.Log(kvp.Value);
             //     // Debug.Log(g.name);
                 
             // }
+
+            
             
         }
         //Debug.Log(Mapping);
@@ -48,6 +50,9 @@ Debug.Log(kvp.Value);
     // Update is called once per frame
     void Update()
     {
-
+        foreach(GameObject g in  BuildingCreate.Alleyway_building)
+            {
+                Debug.Log("I am from variable script"+g);
+            }
     }
 }

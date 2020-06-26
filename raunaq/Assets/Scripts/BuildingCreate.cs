@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BuildingCreate : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class BuildingCreate : MonoBehaviour
    public Button button_g;
    float timeLeft = 30.0f;
    public Text startText;
-   public Text money;
+   public static Text money;
    public Text location;
 
    public HashSet<string> player1_permit = new HashSet<string>();
@@ -36,8 +37,7 @@ public class BuildingCreate : MonoBehaviour
             
             sample s1 = new sample();
             s1.New();
-			clusters c1 = new clusters();
-			c1.assign_bots_to_area();
+			
 
              foreach (KeyValuePair<string, List<GameObject>> kvp in variable.Player1)
                 {
@@ -73,6 +73,7 @@ public class BuildingCreate : MonoBehaviour
         {
             enabled = false;
             //Call the consumer phase code here and change the value he recieved in money.
+			SceneManager.LoadScene("Consumption Phase");
             // Debug.Log("Countdown: " + timeLeft);
         }
 

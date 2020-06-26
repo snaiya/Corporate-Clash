@@ -6364,7 +6364,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1000
+  m_Text: 1000000
 --- !u!222 &543259694
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23810,7 +23810,6 @@ MonoBehaviour:
   button_f: {fileID: 1033023711}
   button_g: {fileID: 1983825453}
   startText: {fileID: 197208726}
-  money: {fileID: 543259693}
   location: {fileID: 824282382}
 --- !u!4 &1904985605
 Transform:

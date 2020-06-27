@@ -69,9 +69,12 @@ public class BuildingCreate : MonoBehaviour
 
         if (timeLeft < 0.0f)
         {
+            // GameObject[] objs = GameObject.FindGameObjectsWithTag("building");
+            // DontDestroyOnLoad(this.gameObject);
             enabled = false;
             //Call the consumer phase code here and change the value he recieved in money.
             // Debug.Log("Countdown: " + timeLeft);
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Consumption Phase");
         }
 
 
@@ -155,7 +158,8 @@ public class BuildingCreate : MonoBehaviour
 
                     GameObject building=Instantiate(prefab_buildingF,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
                     building_f = false;
-                    
+                    building.gameObject.tag = "building";
+
                     if(hit.collider.transform.parent.gameObject.name=="Luxury"){
                         Luxury_building.Add(hit.collider.gameObject);
                         Debug.Log(money.text);
@@ -179,7 +183,7 @@ public class BuildingCreate : MonoBehaviour
                  }
                  else{
                         GameObject building=Instantiate(prefab_buildingG,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
-
+                        building.gameObject.tag = "building";
                         building_g = false;
                         hit.collider.gameObject.GetComponent<tile_individual>().building_placed = "building_g";
                         

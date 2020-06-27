@@ -35,7 +35,8 @@ public class sample : MonoBehaviour
     mylist.Add(my_obj.transform.GetChild(x).gameObject);
         }
         randomizeTile(mylist, tileAssign[i]);
-            variable.Mapping.Add(areaType[i], mylist);
+            if(!variable.Mapping.ContainsKey(areaType[i]))
+                variable.Mapping.Add(areaType[i], mylist);
             mylist.Clear();
 
     }
@@ -98,8 +99,10 @@ public class sample : MonoBehaviour
  
                 }
             }
-            variable.Player1.Add(s, p1);
-            variable.Player2.Add(s, p2);
+            
+                variable.Player1.Add(s, p1);
+            
+                variable.Player2.Add(s, p2);
 
         }
 

@@ -8,6 +8,7 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject consumer;
     public float time =10.0f;
     // Start is called before the first frame update
+	
     void Start()
     {
          GameObject board = GameObject.Find("Tiles");
@@ -16,11 +17,11 @@ public class NewBehaviourScript : MonoBehaviour
              c.transform.position = new Vector2(Random.Range(-45.0f,40.0f),Random.Range(-39.0f,33.0f));
         }
 		
-		clusters c1 = new clusters();
-		c1.assign_bots_to_area();
-		variable.updateBuildingCount();
-		salesreport.countBuildingTypes();
-		popualteSalesReport();
+		//clusters c1 = new clusters();
+		//c1.assign_bots_to_area();
+		//variable.updateBuildingCount();
+		//salesreport.countBuildingTypes();
+		//popualteSalesReport();
 		
         
 
@@ -49,14 +50,13 @@ public class NewBehaviourScript : MonoBehaviour
 		netprofit.GetComponent<TextMeshProUGUI>().text = salesreport.total_profit.ToString();
 		
 		GameObject balance = GameObject.Find("Totalbalance");
-		balance.GetComponent<TextMeshProUGUI>().text = BuildingCreate.money.ToString();
+		int temp = salesreport.total_profit + variable.money;
+		balance.GetComponent<TextMeshProUGUI>().text = temp.ToString();
 		
 	}
 	
-    private void spawnConsumer(){
-       
-
-    }
+   
+   
     // Update is called once per frame
     void Update()
     {

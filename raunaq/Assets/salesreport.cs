@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class salesreport : MonoBehaviour
 {
@@ -21,6 +23,11 @@ public class salesreport : MonoBehaviour
     {
         
     }
+	public void nextRound()
+	{
+		SceneManager.LoadScene("Board");
+	}
+	
 	public static void countBuildingTypes()
 	{
 		foreach (KeyValuePair<string, Dictionary<string, List<GameObject>>> i in variable.BuildingDict)
@@ -57,7 +64,7 @@ public class salesreport : MonoBehaviour
 		calculateProfitLuxury();
 		calculateProfitAlleyway();
 		calculateProfitStreet();
-		//Debug.Log(total_profit);
+		
 	}
 	
 	

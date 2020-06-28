@@ -6,6 +6,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class variable : MonoBehaviour
 {
@@ -31,7 +32,18 @@ public class variable : MonoBehaviour
 	public static Dictionary<string, Dictionary<string, List<GameObject>>> BuildingDict= new  Dictionary<string, Dictionary<string, List<GameObject>>>(){{"Luxury", Luxury_building}, {"Alleyway", Alleyway_building}
 	,{"Street", Street_building}};
 
-
+	public static int money = 10000;
+	
+	
+	public static bool created = false;
+	public static bool updated = false;
+	
+	
+	
+    public static List<GameObject> mylist = new List<GameObject>();
+    public static List<GameObject> tile_assign = new List<GameObject>();
+    public static List<GameObject> p1 = new List<GameObject>();
+    public static List<GameObject> p2 = new List<GameObject>();
     
 
     public static void updateBuildingCount()

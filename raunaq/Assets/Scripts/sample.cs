@@ -6,17 +6,36 @@ public class sample : MonoBehaviour
 {
     public GameObject my_obj;
     public GameObject temp_obj;
-    public List<GameObject> mylist = new List<GameObject>();
-    public List<GameObject> tile_assign = new List<GameObject>();
-    public List<GameObject> p1 = new List<GameObject>();
-    public List<GameObject> p2 = new List<GameObject>();
+	public List<GameObject> temp_tile = new List<GameObject>();
+
     System.Random r = new System.Random();
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    public void  New()
+	/*void Awake()
+	{
+		if(variable.spawn)
+		{
+			DestroyImmediate(gameObject);
+		}
+		variable.spawn = true;
+	}*/
+	
+	public static bool created = false;
+    void Awake ()
+	{
+     if (!created)
+     {
+         DontDestroyOnLoad(this.gameObject);
+         created = true;
+     }
+     
+     else
+     {
+         Destroy(this.gameObject);
+     }
+	}
+	
+   
+    public void New()
     {
     //temp_obj = GameObject.Find("myvar");
     //var = temp_obj.GetComponent<variable>();
@@ -31,42 +50,55 @@ public class sample : MonoBehaviour
     int limit = tileCount[i];
     
     for (int x = 0; x < limit; x++)
-    {
-    mylist.Add(my_obj.transform.GetChild(x).gameObject);
-        }
-        randomizeTile(mylist, tileAssign[i]);
-            variable.Mapping.Add(areaType[i], mylist);
-            mylist.Clear();
-
+	{
+		if (!variable.tile_assign.Contains(my_obj.transform.GetChild(x).gameObject))
+		{
+		variable.mylist.Add(my_obj.transform.GetChild(x).gameObject);
     }
+	}
+       randomizeTile(tileAssign[i]);
+	   
+	   if(variable.Mapping.ContainsKey(areaType[i]))
+	   {
+			variable.Mapping[areaType[i]].AddRange(variable.mylist);
+	   }
+	   else
+	   {
+		   variable.Mapping.Add(areaType[i], variable.mylist);
+	   }   
+		   
+       variable.mylist.Clear();
+	}
     
-    //return hunny.Mapping;
+    
     }
 
-        public void randomizeTile(List<GameObject> mylist, int limit)
+     public void randomizeTile(int limit)
+       {
+        while (temp_tile.Count < limit)
         {
-        while (tile_assign.Count < limit)
-        {
-        int index = r.Next(0, mylist.Count);
-            if (!tile_assign.Contains(mylist[index]))
+			//Debug.Log(temp_tile.Count + "Raunaq");
+        int index = r.Next(0, variable.mylist.Count);
+            if (!variable.tile_assign.Contains(variable.mylist[index]))
             {
-                tile_assign.Add(mylist[index]);
+                variable.tile_assign.Add(variable.mylist[index]);
+				temp_tile.Add(variable.mylist[index]);
 
             }
 
         }
-        printTile(tile_assign, limit);
-            tile_assign.Clear();
+        printTile(limit);
+        temp_tile.Clear();
     }
         
         
 
-        public void printTile(List<GameObject> tile_assign, int x)
+        public void printTile(int x)
         {
             string s = "";
 
 
-        for (int i = 0; i < tile_assign.Count; i++)
+        for (int i = 0; i < variable.tile_assign.Count; i++)
             {
                 
                 if(x == 4)
@@ -81,10 +113,11 @@ public class sample : MonoBehaviour
                 {
                     s = "Street";
                 }
-                GameObject temp = tile_assign[i];
+                GameObject temp = variable.tile_assign[i];
+				//DontDestroyy.DontDestroyChildOnLoad(temp);
                 if (i % 2 == 0)
                 {
-                p1.Add(temp);
+                variable.p1.Add(temp);
                 
                 temp.GetComponent<SpriteRenderer>().color = Color.red;
 
@@ -92,20 +125,37 @@ public class sample : MonoBehaviour
                 }
                 else 
                 {
-                p2.Add(temp);
+                variable.p2.Add(temp);
                 
                 temp.GetComponent<SpriteRenderer>().color = Color.blue;
  
                 }
             }
-            variable.Player1.Add(s, p1);
-            variable.Player2.Add(s, p2);
+			if(variable.Player1.ContainsKey(s))
+			{
+				variable.Player1[s].AddRange(variable.p1);
+			}
+			else
+			{
+					
+				variable.Player1.Add(s,variable.p1);
+			}
+			
+			if(variable.Player2.ContainsKey(s)){
+			variable.Player2[s].AddRange(variable.p2);}
+				else
+				{
+					
+				variable.Player2[s] = variable.p2;
+			}
+			
+            
 
         }
 
         
 
-        // foreach (GameObject i in tile_assign)
+        // foreach (GameObject i in variable.tile_assign)
         // {
         //     SpriteRenderer sr = i.AddComponent(typeof(SpriteRenderer)) as SpriteRenderer;
         //     i.GetComponent<SpriteRenderer>().color = Color.red;

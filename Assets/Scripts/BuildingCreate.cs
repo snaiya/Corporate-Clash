@@ -22,6 +22,7 @@ public class BuildingCreate : MonoBehaviour
    public Text startText;
    public Text money;
    public Text location;
+   public Text money_individual;
 
    public HashSet<string> player1_permit = new HashSet<string>();
    public static List<GameObject> Alleyway_building = new List<GameObject>();
@@ -50,12 +51,20 @@ public class BuildingCreate : MonoBehaviour
            
             
      }
+    public int i=0;
 
     void Update()
     { 
             // tile_selected= false;
           //According to land permit set the conditons in if
-        // Debug.Log("hi");  
+        // Debug.Log("hi");
+       
+         if(money_individual.text != "") 
+           i++;
+
+        if(money_individual.text != "" && i>=10) 
+            money_individual.text = "";
+
         timeLeft -= Time.deltaTime;
         startText.text = timeLeft.ToString("0");
         // Debug.Log("Countdown: " + timeLeft)
@@ -70,14 +79,14 @@ public class BuildingCreate : MonoBehaviour
         if (timeLeft <= 0)
         {
             enabled = false;
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Consumption Phase");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("New Consumption Phase");
             //Call the consumer phase code here and change the value he recieved in money.
             // Debug.Log("Countdown: " + timeLeft);
         }
 
 
           if(Input.GetMouseButtonDown(0)){
-               
+            
              if(is_tile==true){ 
                 tile_placement();
              }
@@ -106,13 +115,22 @@ public class BuildingCreate : MonoBehaviour
                 hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
 
                  if(hit.collider.transform.parent.gameObject.name=="Luxury"){
+                     i = 0;
                      money.text = (int.Parse(money.text)-100).ToString();
+                     money_individual.text = "- $100";
+                    
                  }
                  else if(hit.collider.transform.parent.gameObject.name=="Alleyway"){
+                     i = 0;
                      money.text = (int.Parse(money.text)-70).ToString();
+                     money_individual.text = "- $70";
+                     
                  }
                  else{
+                     i = 0;
                     money.text = (int.Parse(money.text)-50).ToString();
+                    money_individual.text = "- $50";
+                    
                  }
                 // button_f.gameObject.gameObject.SetActive(true);
                 // button_g.gameObject.SetActive(true);
@@ -158,17 +176,26 @@ public class BuildingCreate : MonoBehaviour
                     building_f = false;
                     
                     if(hit.collider.transform.parent.gameObject.name=="Luxury"){
+                        i = 0;
                         Luxury_building.Add(hit.collider.gameObject);
                         Debug.Log(money.text);
                         money.text = (int.Parse(money.text)-50).ToString();
+                        money_individual.text = "- $50";
+                        
                     }
                     else if(hit.collider.transform.parent.gameObject.name=="Alleyway"){
+                        i = 0;
                         Alleyway_building.Add(hit.collider.gameObject);
                         money.text = (int.Parse(money.text)-30).ToString();
+                        money_individual.text = "- $30";
+                        
                     }
                     else{
+                        i = 0;
                         Street_building.Add(hit.collider.gameObject);
                         money.text = (int.Parse(money.text)-25).ToString();
+                        money_individual.text = "- $25";
+                        
                     }
 
                     // foreach(GameObject l in Luxury_building){
@@ -185,16 +212,25 @@ public class BuildingCreate : MonoBehaviour
                         hit.collider.gameObject.GetComponent<tile_individual>().building_placed = "building_g";
                         
                         if(hit.collider.transform.parent.gameObject.name=="Luxury"){
+                            i = 0;
                             Luxury_building.Add(hit.collider.gameObject);
                             money.text = (int.Parse(money.text)-80).ToString();
+                            money_individual.text = "- $80";
+                            
                         }
                         else if(hit.collider.transform.parent.gameObject.name=="Alleyway"){
+                            i = 0;
                             Alleyway_building.Add(hit.collider.gameObject);
                             money.text = (int.Parse(money.text)-60).ToString();
+                            money_individual.text = "- $60";
+                            
                         }
                         else{
+                            i = 0;
                             Street_building.Add(hit.collider.gameObject);
                             money.text = (int.Parse(money.text)-55).ToString();
+                            money_individual.text = "- $55";
+                            
                         }
                 }
 

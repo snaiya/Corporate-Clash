@@ -4,14 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 // using DentedPixel;
 
-public class Animation : MonoBehaviour
+public class AnimationCounter : MonoBehaviour
 {
     // public GameObject bar;
     // private Vector3 screenBounds;
-    
+    public Slider slider;
+    // public Canvas mycanvas;
     public GameObject consumer;
     public GameObject[] animation_consumer = new GameObject[15];
-    public Text timer;
+    public Text progress;
     public Vector3[] position_of_consumer = new Vector3[15];
     
     // Start is called before the first frame update
@@ -57,6 +58,8 @@ public class Animation : MonoBehaviour
         // Luxury-street top right
         // position_of_consumer[11] = new Vector3(21.8f,1.6f,-1.22861f);
 
+        progress.text = "Consumer Purchasing";
+
         
         for(int i =0;i<8;i++)
         {
@@ -72,27 +75,36 @@ public class Animation : MonoBehaviour
         // Debug.Log(p.x);
 
     }
-    private void spawnConsumer(){
-       
+    
+    private void spawnProgressBar(){
+            //float progress= Mathf.Clamp01(operation.progress/ .9f);
+            // slider = GetComponent<Slider>();
+        //    slider.value = 0.0f;
+        //    while(slider.minValue!=slider.maxValue)
+                slider.value += 0.0029f;
+                
 
     }
     // Update is called once per frame
-    
-    public float time= 10.0f;
-    
+    float time= 15f;
     void Update()
     {
         time -= Time.deltaTime;
-        timer.text = time.ToString("0");
         // animate_bar();
-        
         Debug.Log(time);
-        
         if(time<=0){
+            
+            // slider.gameObject.SetActive(false);
+            progress.text = "Consumer Purchase Done";
             enabled = false;
+            // slider.enabled = false;
+            
             //Score report
         }
-       
+        if(time>0)
+        {
+            spawnProgressBar();
+        }
         //     for(int i=0;i<animation_consumer.Length;i++)
         //  {
         //      //Debug.Log(animation_consumer[i]);
@@ -207,26 +219,25 @@ public class Animation : MonoBehaviour
                 
                 float temp = v.x;
                 // Debug.Log(deb);
-                Debug.Log(xmax);
-                Debug.Log(xmin);
+                // Debug.Log(xmax);
+                // Debug.Log(xmin);
                 if(v.x<=xmax && flag==0 )
-                    v.x = v.x + 0.5f;
+                    v.x ++;
                 if((temp-v.x)==0 && flag ==0)
                 {
-                    Debug.Log("Flag switched from 0 to 1");
+                    // Debug.Log("Flag switched from 0 to 1");
                     flag = 1;
-                    v.x = v.x - 0.5f;
+                    v.x--;
                 }
                 if(v.x>=xmin && flag ==1)
                 {
-                    
-                    v.x = v.x - 0.5f;
+                    v.x--;
                 }
                 if((temp-v.x) == 0 && flag ==1)
                 {
-                    Debug.Log("Switched from 1 to 0");
+                    // Debug.Log("Switched from 1 to 0");
                     flag = 0;
-                    v.x = v.x + 0.5f;
+                    v.x++;
                 }
                 
                 // Debug.Log(deb);
@@ -276,25 +287,25 @@ public class Animation : MonoBehaviour
         float temp_y = v.y;
 
         if(v.x<= xmax && v.y<=ymax && flag_r ==0){
-            v.x = v.x + 0.5f;
-            v.y = v.y + 0.5f;
+            v.x = v.x + 0.75f;
+            v.y = v.y + 0.75f;
         }
 
         if(temp_x - v.x ==0 && temp_y - v.y ==0 && flag_r ==0){
             flag_r  = 1;
-            v.x = v.x - 0.5f;
-            v.y = v.y - 0.5f;
+            v.x = v.x - 0.75f;
+            v.y = v.y - 0.75f;
         }
         
         if(v.x>=xmin && v.y>=ymin && flag_r ==1){
-            v.x = v.x - 0.5f;
-            v.y = v.y - 0.5f;
+            v.x = v.x - 0.75f;
+            v.y = v.y - 0.75f;
         }
 
          if(temp_x - v.x ==0 && temp_y - v.y ==0 && flag_r ==1){
             flag_r  = 0;
-            v.x = v.x + 0.5f;
-            v.y = v.y + 0.5f;
+            v.x = v.x + 0.75f;
+            v.y = v.y + 0.75f;
         }
 
         

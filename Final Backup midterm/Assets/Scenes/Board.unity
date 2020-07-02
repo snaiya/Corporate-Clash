@@ -23915,6 +23915,8 @@ MonoBehaviour:
     type: 3}
   prefab_buildingF: {fileID: 3441409599863305779, guid: c83ef5f086ba247ed87868b4002fa387,
     type: 3}
+  prefab_tile: {fileID: 168372403572835742, guid: 4cb1f6da1b14c4b8a9e39e1ed2b5bda2,
+    type: 3}
   tile: {fileID: 383798383}
   button_f: {fileID: 1033023711}
   button_g: {fileID: 1983825453}
@@ -23922,6 +23924,7 @@ MonoBehaviour:
   money: {fileID: 543259693}
   location: {fileID: 824282382}
   money_individual: {fileID: 1127128593}
+  board: {fileID: 342803959}
 --- !u!4 &1904985605
 Transform:
   m_ObjectHideFlags: 0

@@ -20,7 +20,7 @@ public class BuildingCreate : MonoBehaviour
    public Button tile;
    public Button button_f;
    public Button button_g;
-   float timeLeft = 30.0f;
+   float timeLeft = 10.0f;
    public Text startText;
    public Text money;
    public Text location;
@@ -138,7 +138,6 @@ public class BuildingCreate : MonoBehaviour
                 // tile.gameObject.SetActive(false);
                 is_tile = false;
             } 
-    
         }
 
     public void create_building_f(){
@@ -175,7 +174,8 @@ public class BuildingCreate : MonoBehaviour
 
                     GameObject building=Instantiate(prefab_buildingF,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
                     building_f = false;
-                    
+                    building.tag = "Building";
+                    GameObject.DontDestroyOnLoad(building);
                     if(hit.collider.transform.parent.gameObject.name=="Luxury")
                     {
                         if (variable.Luxury_building.ContainsKey("f")){
@@ -195,6 +195,7 @@ public class BuildingCreate : MonoBehaviour
                 }
                     else if(hit.collider.transform.parent.gameObject.name=="Alleyway")
                     {
+                        
                         if (variable.Alleyway_building.ContainsKey("f")){
                             variable.Alleyway_building["f"].Add(hit.collider.gameObject);
                         }
@@ -234,7 +235,7 @@ public class BuildingCreate : MonoBehaviour
                  }
                  else{
                         GameObject building=Instantiate(prefab_buildingG,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
-
+                        GameObject.DontDestroyOnLoad(building);
                         building_g = false;
                         hit.collider.gameObject.GetComponent<tile_individual>().building_placed = "building_g";
                         
@@ -300,6 +301,8 @@ public class BuildingCreate : MonoBehaviour
     }
 
    
-
+    void OnDestroy(){
+        Debug.Log("Destroyed");
+    }
 
 }

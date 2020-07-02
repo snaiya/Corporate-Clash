@@ -17,6 +17,8 @@ public class AnimationCounter : MonoBehaviour
 
     GameObject salesreportui;
 
+    public GameObject prefab_buildingF;
+
     
     // Start is called before the first frame update
     
@@ -63,8 +65,19 @@ public class AnimationCounter : MonoBehaviour
 
         salesreport.countBuildingTypes();
 
-                
-        
+        // foreach (KeyValuePair<string, List<GameObject>> kvp in variable.Luxury_building)
+        //         {
+        //             //Debug.Log(kvp.Key);
+
+        //             foreach (GameObject g in kvp.Value)
+        //             {
+        //                 Debug.Log(g.name);
+        //                 Debug.Log("hi");
+        //                 // GameObject building=Instantiate(prefab_buildingF,g.transform.position, Quaternion.identity) as GameObject;
+                        
+        //             }
+        //         }
+                  
 
     }
 

@@ -3344,6 +3344,8 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
+  prefab_buildingF: {fileID: 3441409599863305779, guid: c83ef5f086ba247ed87868b4002fa387,
+    type: 3}
 --- !u!1001 &348885796
 PrefabInstance:
   m_ObjectHideFlags: 0

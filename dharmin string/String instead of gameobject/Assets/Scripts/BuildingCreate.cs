@@ -33,6 +33,7 @@ public class BuildingCreate : MonoBehaviour
         //  button_f.gameObject.SetActive(false);
         //  button_g.gameObject.SetActive(false);
             Debug.Log("Started");
+	//Color the board
             for (int i = 0; i <=23; i++) 
             {
                 tile_color = GameObject.Find("LuxuryTile"+i.ToString());

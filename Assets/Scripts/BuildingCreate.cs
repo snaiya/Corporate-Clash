@@ -24,9 +24,11 @@ public class BuildingCreate : MonoBehaviour
     public Text location;
     public Text money_individual;
 
-    GameObject tile_color; 
+    GameObject tile_color;
     
     public HashSet<string> player1_permit = new HashSet<string>();
+
+    // public HashSet<string> location_check = new HashSet<string>();
 
     public void Start()
     {
@@ -119,7 +121,7 @@ public class BuildingCreate : MonoBehaviour
              RaycastHit2D hit = Physics2D.Raycast(raycastposition,Vector2.zero);
             
             
-            if(hit.collider!=null && player1_permit.Contains(hit.collider.gameObject.name)){
+            if(hit.collider!=null && player1_permit.Contains(hit.collider.gameObject.name) && !variable.location_check.Contains(hit.collider.gameObject.name)){
 
                 hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
 
@@ -179,7 +181,7 @@ public class BuildingCreate : MonoBehaviour
              RaycastHit2D hit = Physics2D.Raycast(raycastposition,Vector2.zero);
 
 
-             if(hit.collider!=null && hit.collider.gameObject.GetComponent<SpriteRenderer>().color==Color.green && hit.collider.gameObject.GetComponent<tile_individual>().building_placed.Equals("") ){
+             if(hit.collider!=null && hit.collider.gameObject.GetComponent<SpriteRenderer>().color==Color.green && hit.collider.gameObject.GetComponent<tile_individual>().building_placed.Equals("") && !variable.location_check.Contains(hit.collider.gameObject.name) ){
                  if(building_f==true){
 
                     GameObject building=Instantiate(prefab_buildingF,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
@@ -189,6 +191,15 @@ public class BuildingCreate : MonoBehaviour
                     
                     if(hit.collider.transform.parent.gameObject.name=="Luxury")
                     {
+                        if(!variable.location_check.Contains(hit.collider.gameObject.name))
+                            variable.location_check.Add(hit.collider.gameObject.name);
+
+                        // foreach (var n in location_check)
+                        // {
+                        //     Debug.Log("This is from Luxury"+n);
+                        // }  
+                        
+
                         if (variable.Luxury_building.ContainsKey("f")){
                             variable.Luxury_building["f"].Add(hit.collider.gameObject.name);
                         }
@@ -206,6 +217,8 @@ public class BuildingCreate : MonoBehaviour
                 }
                     else if(hit.collider.transform.parent.gameObject.name=="Alleyway")
                     {
+                        if(!variable.location_check.Contains(hit.collider.gameObject.name))
+                            variable.location_check.Add(hit.collider.gameObject.name);
                         if (variable.Alleyway_building.ContainsKey("f")){
                             variable.Alleyway_building["f"].Add(hit.collider.gameObject.name);
                         }
@@ -221,6 +234,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
+                        if(!variable.location_check.Contains(hit.collider.gameObject.name))
+                            variable.location_check.Add(hit.collider.gameObject.name);
                         if (variable.Street_building.ContainsKey("f")){
                             variable.Street_building["f"].Add(hit.collider.gameObject.name);
                         }
@@ -250,7 +265,8 @@ public class BuildingCreate : MonoBehaviour
                         hit.collider.gameObject.GetComponent<tile_individual>().building_placed = "building_g";
                         
                         if(hit.collider.transform.parent.gameObject.name=="Luxury"){
-
+                            if(!variable.location_check.Contains(hit.collider.gameObject.name))
+                                variable.location_check.Add(hit.collider.gameObject.name);
                             if (variable.Luxury_building.ContainsKey("g")){
                             variable.Luxury_building["g"].Add(hit.collider.gameObject.name);
                         }
@@ -266,6 +282,8 @@ public class BuildingCreate : MonoBehaviour
 
                 }
                         else if(hit.collider.transform.parent.gameObject.name=="Alleyway"){
+                            if(!variable.location_check.Contains(hit.collider.gameObject.name))
+                                variable.location_check.Add(hit.collider.gameObject.name);
                             if (variable.Alleyway_building.ContainsKey("g")){
                             variable.Alleyway_building["g"].Add(hit.collider.gameObject.name);
                         }
@@ -279,6 +297,8 @@ public class BuildingCreate : MonoBehaviour
                             variable.money -= 70;
                 }
                         else{
+                            if(!variable.location_check.Contains(hit.collider.gameObject.name))
+                                variable.location_check.Add(hit.collider.gameObject.name);
                             if (variable.Street_building.ContainsKey("g")){
                             variable.Street_building["g"].Add(hit.collider.gameObject.name);
                         }

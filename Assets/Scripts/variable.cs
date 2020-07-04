@@ -53,6 +53,8 @@ public class variable : MonoBehaviour
     public static Dictionary<string, List<string>> Luxury_building = new Dictionary<string, List<string>>();
     public static Dictionary<string, List<string>> Street_building = new Dictionary<string, List<string>>();
     
+    //Check for location
+    public static HashSet<string> location_check = new HashSet<string>();
     public static Dictionary<string, Dictionary<string, List<string>>> BuildingDict= new  Dictionary<string, Dictionary<string, List<string>>>()
     {
         {"Luxury", Luxury_building}, 

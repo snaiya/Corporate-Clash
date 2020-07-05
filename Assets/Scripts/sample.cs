@@ -3,17 +3,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class sample : MonoBehaviour
 {
-    //declare a Gameobject area
+    //declare a Gameobject area which contains the GameObject named 'luxury', 'alleyway', 'street'
     public GameObject area;
 
     System.Random r = new System.Random();
     
+    public void clearPlayer()
+    {
+        //after every 3 round, clear the Player1 dictionary
+        variable.Player1.Clear();
+
+        foreach(KeyValuePair<string, List<string>> kvp in variable.tiles_bought)
+        {
+            List<string> temp = variable.tiles_bought[kvp.Key].ToList();
+            
+            //add the tiles bought by Player1 to the Player1 dictionary
+            if(variable.Player1.ContainsKey(kvp.Key))
+            {
+                variable.Player1[kvp.Key].AddRange(temp);
+            }
+            else
+            {
+                variable.Player1.Add(kvp.Key, temp);
+            }
+
+        }
+    }
+
     //called from BuildingCreate.cs
     public void New()
     {
+        
         //array fo strings containing primary areas
         string[] areaType = new string[] {"Luxury", "Alleyway", "Street"};
 
@@ -59,6 +83,11 @@ public class sample : MonoBehaviour
         //declare a temporary list of GameObject temp_tile
         List<string> temp_tile = new List<string>();
 
+        //add the tiles back to global pool if the tiles have not been bought
+        IEnumerable<string> all_bought_tiles = variable.tiles_bought.SelectMany (d => d.Value).ToList();
+
+        variable.tile_assign = all_bought_tiles.ToList();
+
         //loop while the list doesnot contain required number of tiles
         while (temp_tile.Count < total_tiles)
         {
@@ -80,10 +109,18 @@ public class sample : MonoBehaviour
         //clear the local list
         temp_tile.Clear();
     }
-        
+
     public void colorTile(int x)
     {
         string s = "";
+
+        //temporary list of tiles for each round belonging to player1
+        List<string> p1 = new List<string>();
+
+
+        //temporary list of tiles for each round belonging to player2
+        //List<string> p2 = new List<string>();
+
 
         for (int i = 0; i < variable.tile_assign.Count; i++)
         {
@@ -102,39 +139,36 @@ public class sample : MonoBehaviour
             
             GameObject temp = GameObject.Find(variable.tile_assign[i]);
 
-            
             if (i % 2 == 0)
             {
                 //add the assigned tiles to player 1 list and color it red
-                variable.p1.Add(temp.name);
-                temp.GetComponent<SpriteRenderer>().color = Color.red;
+                p1.Add(temp.name);
             }
             else 
             {
                 //add the assigned tiles to player 2 list and color it red
-                variable.p2.Add(temp.name);
-                temp.GetComponent<SpriteRenderer>().color = Color.blue;
+                //p2.Add(temp.name);
             }
         }
         
         //map tiles with area for player1
         if(variable.Player1.ContainsKey(s))
         {
-            variable.Player1[s].AddRange(variable.p1);
+            variable.Player1[s].AddRange(p1);
         }
         else
         {
-            variable.Player1.Add(s,variable.p1);
+            variable.Player1.Add(s, p1);
         }
-        
+
         //map tiles with area for player2
-        if(variable.Player2.ContainsKey(s))
-        {
-            variable.Player2[s].AddRange(variable.p2);
-        }
-        else
-        {
-            variable.Player2[s] = variable.p2;
-        }
+        // if(variable.Player2.ContainsKey(s))
+        // {
+        //     variable.Player2[s].AddRange(variable.p2);
+        // }
+        // else
+        // {
+        //     variable.Player2[s] = variable.p2;
+        // }
     }
 }

@@ -13,13 +13,14 @@ public class AnimationCounter : MonoBehaviour
     public Vector3[] position_of_consumer = new Vector3[15];
 
     GameObject salesreportui;
+    //GameObject nextroundbutton;
 
     void Start()
     {
         salesreportui = GameObject.Find("SalesReportUI");
         salesreportui.SetActive(false);
 
-        
+         //nextroundbutton = GameObject.Find("NextRoundButton");
         //Leftmost horizontal
         position_of_consumer[0] = new Vector3(-54.40446f,3.530338f,-1.22861f);
         //Rightmost horizontal
@@ -54,6 +55,22 @@ public class AnimationCounter : MonoBehaviour
         variable.updateBuildingCount();
 
         salesreport.countBuildingTypes();
+
+        if(salesreport.total_profit >= 2000 && variable.round <=14){
+            // win scene here and remove application.quit from here
+            
+            Debug.Log("WINWINWIN!!");
+           // Application.Quit();
+
+        }
+        else if(variable.round >14){
+            // Lose scene here and remove application.quit from here
+            Debug.Log("LOST");
+            //Application.Quit();
+        }
+        
+
+        
     }
 
     void populateSalesReport()
@@ -109,9 +126,6 @@ public class AnimationCounter : MonoBehaviour
      
             salesreportui.SetActive(true);
             populateSalesReport();
-
-        
-
         }
 
         if(time>0)

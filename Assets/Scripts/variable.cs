@@ -25,16 +25,6 @@ public class variable : MonoBehaviour
     public static List<string> tile_assign = new List<string>();
     
 
-    //temporary list of tiles for each round belonging to player1
-    public static List<string> p1 = new List<string>();
-   
-    //temporary list of tiles for each round belonging to player2
-    public static List<string> p2 = new List<string>();
-
-    public static bool flag = false;
-
-
-
     /* gets populated in clusters.cs */
     //Mapping of area with list of bot_ids belonging to that area
     public static Dictionary<string, List<int>> Land = new Dictionary<string, List<int>>();
@@ -47,14 +37,18 @@ public class variable : MonoBehaviour
     public static Dictionary<int, int> Street_cluster = new Dictionary<int, int>();
 
 
+    /* gets populated in BuildingCreate.cs */
+    //Check for location
+    public static HashSet<string> location_check = new HashSet<string>();
+    //list of tiles player bought before new tiles allocation round
+    public static Dictionary<string, List<string>> tiles_bought = new Dictionary<string, List<string>>();
 
     /* gets populated in salesreport.cs */
     public static Dictionary<string, List<string>> Alleyway_building = new Dictionary<string, List<string>>();
     public static Dictionary<string, List<string>> Luxury_building = new Dictionary<string, List<string>>();
     public static Dictionary<string, List<string>> Street_building = new Dictionary<string, List<string>>();
     
-    //Check for location
-    public static HashSet<string> location_check = new HashSet<string>();
+
     public static Dictionary<string, Dictionary<string, List<string>>> BuildingDict= new  Dictionary<string, Dictionary<string, List<string>>>()
     {
         {"Luxury", Luxury_building}, 
@@ -63,10 +57,9 @@ public class variable : MonoBehaviour
     };
 
 
-
     public static int money = 1000;
 
-    public static bool created = false;
+    public static int round = 0;
 
     public static void updateBuildingCount()
     {

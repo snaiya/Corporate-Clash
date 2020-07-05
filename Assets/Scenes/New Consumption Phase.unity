@@ -25220,7 +25220,7 @@ GameObject:
   - component: {fileID: 4893094528846379385}
   - component: {fileID: 4893094528846379386}
   m_Layer: 5
-  m_Name: Button
+  m_Name: NextRoundButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -24,6 +24,7 @@ public class variable : MonoBehaviour
     //A global list which contains the tiles that have been assigned
     public static List<GameObject> tile_assign = new List<GameObject>();
 
+    public static List<string> tile_assign_2 = new List<string>();
     //temporary list of tiles for each round belonging to player1
     public static List<GameObject> p1 = new List<GameObject>();
 

@@ -17,6 +17,7 @@ public class BuildingCreate : MonoBehaviour
 
    public GameObject prefab_buildingG;
    public GameObject prefab_buildingF;
+   public GameObject board;
    public Button tile;
    public Button button_f;
    public Button button_g;
@@ -29,26 +30,32 @@ public class BuildingCreate : MonoBehaviour
    public HashSet<string> player1_permit = new HashSet<string>();
 
 
+
     void Start(){
         //  tile.gameObject.SetActive(true);
         //  button_f.gameObject.SetActive(false);
         //  button_g.gameObject.SetActive(false);
             //Debug.Log("Started");
-            
+            Debug.Log("Started");
+             foreach (string s in variable.tile_assign_2)
+                {
+                    Debug.Log(s);
+                   
+                }
             sample s1 = new sample();
             s1.New();
+            
 
-             foreach (KeyValuePair<string, List<GameObject>> kvp in variable.Player1)
-                {
-                    //Debug.Log(kvp.Key);
+            //  foreach (KeyValuePair<string, List<GameObject>> kvp in variable.Player1)
+            //     {
+            //         //Debug.Log(kvp.Key);
 
-                    foreach (GameObject g in kvp.Value)
-                    {
-                        player1_permit.Add(g.name);
+            //         foreach (GameObject g in kvp.Value)
+            //         {
+            //             player1_permit.Add(g.name);
                         
-                    }
-                }
-           
+            //         }
+            //     }        
             
      }
     private int i=0;

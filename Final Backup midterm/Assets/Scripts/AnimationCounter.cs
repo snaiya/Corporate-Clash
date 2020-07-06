@@ -58,12 +58,12 @@ public class AnimationCounter : MonoBehaviour
             
         }
 
-        clusters c1 = new clusters();
-        c1.assign_bots_to_area();
+        // clusters c1 = new clusters();
+        // c1.assign_bots_to_area();
 
-        variable.updateBuildingCount();
+        // variable.updateBuildingCount();
 
-        salesreport.countBuildingTypes();
+        // salesreport.countBuildingTypes();
 
         // foreach (KeyValuePair<string, List<GameObject>> kvp in variable.Luxury_building)
         //         {

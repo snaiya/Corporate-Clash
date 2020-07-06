@@ -40,9 +40,14 @@ public class sample : MonoBehaviour
             randomizeTile(total_tiles_to_assign[i]);
             
             //map all the tiles with the area they belong to
-            variable.Mapping.Add(areaType[i], variable.tiles_in_area);
-
-            //clear the list for next area
+            // variable.Mapping.Add(areaType[i], variable.tiles_in_area);
+            if(variable.Mapping.ContainsKey(areaType[i]))        
+            {            
+                variable.Mapping[areaType[i]].AddRange(variable.tiles_in_area);       
+                }else{
+                               variable.Mapping.Add(areaType[i], variable.tiles_in_area);       
+                               }             
+            
             variable.tiles_in_area.Clear();
         }
     }
@@ -63,6 +68,7 @@ public class sample : MonoBehaviour
             {
                 //add the tile to both global and local lists
                 variable.tile_assign.Add(variable.tiles_in_area[index]);
+                variable.tile_assign_2.Add(variable.tiles_in_area[index].name);
                 temp_tile.Add(variable.tiles_in_area[index]);
             }
         }

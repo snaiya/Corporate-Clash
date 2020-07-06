@@ -19,19 +19,22 @@ public class BuildingCreate : MonoBehaviour
     public Button tile;
     public Button button_f;
     public Button button_g;
-    float timeLeft = 4.0f;
+    float timeLeft = 10.0f;
     public Text startText;
     public Text money;
     public Text location;
     public Text money_individual;
 
     GameObject tile_color;
+
+    public GameObject Insufficient_balance;
     
     public HashSet<string> player1_permit = new HashSet<string>();
 
     public void Start()
     {
         money.text = variable.money.ToString();
+        Insufficient_balance.SetActive(false);
         for (int i = 0; i <=23; i++) 
         {
             tile_color = GameObject.Find("LuxuryTile"+i.ToString());
@@ -104,7 +107,11 @@ public class BuildingCreate : MonoBehaviour
         if (timeLeft <= 0)
         {
             enabled = false;
-            UnityEngine.SceneManagement.SceneManager.LoadScene("New Consumption Phase");
+            if(variable.money<100)
+            //This can be decided later on as per the discussion.
+                Insufficient_balance.SetActive(true);
+            else
+                UnityEngine.SceneManagement.SceneManager.LoadScene("New Consumption Phase");
         }
 
 
@@ -158,7 +165,9 @@ public class BuildingCreate : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Insufficient balance");
+                        // Insufficient_balance = GameObject.Find("Insufficient Balance");
+                        Insufficient_balance.SetActive(true);
+
                 }
             }
             else if(hit.collider.transform.parent.gameObject.name=="Alleyway")
@@ -188,7 +197,7 @@ public class BuildingCreate : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Insufficient balance");
+                    Insufficient_balance.SetActive(true);
                 }   
             }
             else
@@ -218,7 +227,7 @@ public class BuildingCreate : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Insufficient balance");
+                    Insufficient_balance.SetActive(true);
                 }
             } 
             
@@ -293,7 +302,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
                 else if(hit.collider.transform.parent.gameObject.name=="Alleyway")
@@ -332,7 +342,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
                 else
@@ -371,7 +382,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
             }
@@ -412,7 +424,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
                 else if(hit.collider.transform.parent.gameObject.name=="Alleyway")
@@ -450,7 +463,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
                 else
@@ -488,7 +502,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
             }   

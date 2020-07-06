@@ -11,15 +11,25 @@ public class AnimationCounter : MonoBehaviour
     public GameObject[] animation_consumer = new GameObject[15];
     public Text progress;
     public Vector3[] position_of_consumer = new Vector3[15];
-
+    public GameObject DecisionWon;
+    public GameObject DecisionLost;
+    public GameObject WonPlayAgain;
+    public GameObject LossPlayAgain;
     GameObject salesreportui;
+    GameObject salesreportpanel;
+    bool winflag=false;
+    bool lossflag=false;
     //GameObject nextroundbutton;
 
     void Start()
     {
         salesreportui = GameObject.Find("SalesReportUI");
+        salesreportpanel = GameObject.Find("SalesReportPanel");
         salesreportui.SetActive(false);
-
+        DecisionWon.SetActive(false);
+        DecisionLost.SetActive(false);
+        WonPlayAgain.SetActive(false);
+        LossPlayAgain.SetActive(false);
          //nextroundbutton = GameObject.Find("NextRoundButton");
         //Leftmost horizontal
         position_of_consumer[0] = new Vector3(-54.40446f,3.530338f,-1.22861f);
@@ -56,49 +66,60 @@ public class AnimationCounter : MonoBehaviour
 
         salesreport.countBuildingTypes();
 
-        if(salesreport.total_profit >= 2000 && variable.round <=14){
+        if(salesreport.total_profit >= 500 && variable.round <=14){
             // win scene here and remove application.quit from here
-            
-            Debug.Log("WINWINWIN!!");
-           // Application.Quit();
+            winflag=true;
+            // Debug.Log("WINWINWIN!!");
+           
+            // salesreportpanel.SetActive(false);
+            // DecisionWon.SetActive(true);
+            // WonPlayAgain.SetActive(true);
+            // Application.Quit();
 
         }
         else if(variable.round >14){
             // Lose scene here and remove application.quit from here
-            Debug.Log("LOST");
-            //Application.Quit();
+            // Debug.Log("LOST");
+            // winlossflag=true;
+            lossflag=true;
+            // DecisionLost.SetActive(true);
+            // LossPlayAgain.SetActive(true);
+            // Application.Quit();
         }
-        
+        //  salesreportui.SetActive(false);
 
         
     }
 
     void populateSalesReport()
     {
-        GameObject luxury_f = GameObject.Find("Luxury_F");
-        luxury_f.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Luxury_F"].ToString();
         
-        GameObject luxury_g = GameObject.Find("Luxury_G");
-        luxury_g.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Luxury_G"].ToString();
+            GameObject luxury_f = GameObject.Find("Luxury_F");
+            luxury_f.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Luxury_F"].ToString();
+            
+            GameObject luxury_g = GameObject.Find("Luxury_G");
+            luxury_g.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Luxury_G"].ToString();
+            
+            GameObject alleyway_f = GameObject.Find("Alleyway_F");
+            alleyway_f.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Alleyway_F"].ToString();
+            
+            GameObject alleyway_g = GameObject.Find("Alleyway_G");
+            alleyway_g.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Alleyway_G"].ToString();
+            
+            GameObject street_f = GameObject.Find("Street_F");
+            street_f.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Street_F"].ToString();
+            
+            GameObject street_g = GameObject.Find("Street_G");
+            street_g.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Street_G"].ToString();
+            
+            GameObject netprofit = GameObject.Find("Netprofit");
+            netprofit.GetComponent<TextMeshProUGUI>().text = salesreport.total_profit.ToString();
+            
+            variable.money = variable.money + salesreport.total_profit;
+            GameObject balance = GameObject.Find("Totalbalance");
+            balance.GetComponent<TextMeshProUGUI>().text = (variable.money).ToString();
+       
         
-        GameObject alleyway_f = GameObject.Find("Alleyway_F");
-        alleyway_f.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Alleyway_F"].ToString();
-        
-        GameObject alleyway_g = GameObject.Find("Alleyway_G");
-        alleyway_g.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Alleyway_G"].ToString();
-        
-        GameObject street_f = GameObject.Find("Street_F");
-        street_f.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Street_F"].ToString();
-        
-        GameObject street_g = GameObject.Find("Street_G");
-        street_g.GetComponent<TextMeshProUGUI>().text = salesreport.NetProfit["Street_G"].ToString();
-        
-        GameObject netprofit = GameObject.Find("Netprofit");
-        netprofit.GetComponent<TextMeshProUGUI>().text = salesreport.total_profit.ToString();
-        
-        variable.money = variable.money + salesreport.total_profit;
-        GameObject balance = GameObject.Find("Totalbalance");
-        balance.GetComponent<TextMeshProUGUI>().text = (variable.money).ToString();
         
     }
     
@@ -122,16 +143,35 @@ public class AnimationCounter : MonoBehaviour
             enabled = false;
             // slider.enabled = false;
         
-            //Score report
-     
+            // Score report
+            
             salesreportui.SetActive(true);
             populateSalesReport();
+            Debug.Log("I am being called when exception");
+           
+            if(winflag=true)
+            {
+                salesreportpanel.SetActive(false);
+                DecisionWon.SetActive(true);
+                WonPlayAgain.SetActive(true);
+            }
+            if(lossflag=true)
+            {
+                salesreportpanel.SetActive(false);
+                DecisionLost.SetActive(true);
+                LossPlayAgain.SetActive(true);
+            }
+            
+            // Debug.Log(winlossflag);
+            
+                
         }
-
+        
         if(time>0)
         {
             spawnProgressBar();
         }
+       
        
 
         Vector3 p = new Vector3();

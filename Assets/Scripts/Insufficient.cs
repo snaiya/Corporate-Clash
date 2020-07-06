@@ -5,10 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Insufficient : MonoBehaviour
 {
-    public void insufficient_balance(){
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Standalone");
-        //Application.Quit();
-   }
 
    public void onGameComplete()
    {

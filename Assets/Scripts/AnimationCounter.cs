@@ -66,14 +66,15 @@ public class AnimationCounter : MonoBehaviour
 
         salesreport.countBuildingTypes();
 
-        if(salesreport.total_profit >= 500 && variable.round <=14){
+        if(salesreport.total_profit >= 2000 && variable.round <=14){
             // win scene here and remove application.quit from here
-            winflag=true;
+             winflag=true;
             // Debug.Log("WINWINWIN!!");
            
-            // salesreportpanel.SetActive(false);
-            // DecisionWon.SetActive(true);
-            // WonPlayAgain.SetActive(true);
+            salesreportpanel.SetActive(false);
+            // Debug.Log("Panel is set false");
+            DecisionWon.SetActive(true);
+            WonPlayAgain.SetActive(true);
             // Application.Quit();
 
         }
@@ -82,8 +83,9 @@ public class AnimationCounter : MonoBehaviour
             // Debug.Log("LOST");
             // winlossflag=true;
             lossflag=true;
-            // DecisionLost.SetActive(true);
-            // LossPlayAgain.SetActive(true);
+            salesreportpanel.SetActive(false);
+            DecisionLost.SetActive(true);
+            LossPlayAgain.SetActive(true);
             // Application.Quit();
         }
         //  salesreportui.SetActive(false);
@@ -142,25 +144,30 @@ public class AnimationCounter : MonoBehaviour
             progress.text = "Consumer Purchase Done";
             enabled = false;
             // slider.enabled = false;
-        
+            // Debug.Log(winflag);
             // Score report
             
             salesreportui.SetActive(true);
-            populateSalesReport();
-            Debug.Log("I am being called when exception");
-           
-            if(winflag=true)
-            {
-                salesreportpanel.SetActive(false);
-                DecisionWon.SetActive(true);
-                WonPlayAgain.SetActive(true);
-            }
-            if(lossflag=true)
-            {
-                salesreportpanel.SetActive(false);
-                DecisionLost.SetActive(true);
-                LossPlayAgain.SetActive(true);
-            }
+            Debug.Log("I am being called after panel is set false");
+            if(winflag==false && lossflag==false)
+                populateSalesReport();
+            
+            
+            
+            // Debug.Log(winflag);
+            // Debug.Log(variable.money);
+            // if(winflag=true)
+            // {
+            //     salesreportpanel.SetActive(false);
+            //     DecisionWon.SetActive(true);
+            //     WonPlayAgain.SetActive(true);
+            // }
+            // if(lossflag=true)
+            // {
+            //     salesreportpanel.SetActive(false);
+            //     DecisionLost.SetActive(true);
+            //     LossPlayAgain.SetActive(true);
+            // }
             
             // Debug.Log(winlossflag);
             

@@ -19,19 +19,22 @@ public class BuildingCreate : MonoBehaviour
     public Button tile;
     public Button button_f;
     public Button button_g;
-    float timeLeft = 4.0f;
+    float timeLeft = 2.0f;
     public Text startText;
     public Text money;
     public Text location;
     public Text money_individual;
 
     GameObject tile_color;
+
+    public GameObject Insufficient_balance;
     
     public HashSet<string> player1_permit = new HashSet<string>();
 
     public void Start()
     {
         money.text = variable.money.ToString();
+        Insufficient_balance.SetActive(false);
         for (int i = 0; i <=23; i++) 
         {
             tile_color = GameObject.Find("LuxuryTile"+i.ToString());
@@ -139,91 +142,56 @@ public class BuildingCreate : MonoBehaviour
 
                 int temp = variable.money - 100;
 
-                if (temp >= 0)
-                {
-                    hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
-
-                    //adding the tiles to the list that player purchased
-                    if (variable.tiles_bought.ContainsKey("Luxury"))
-                    {
-                        variable.tiles_bought["Luxury"].Add(hit.collider.gameObject.name);
-                    }
-                    else 
-                    {
-                        variable.tiles_bought.Add("Luxury", new List<string> {hit.collider.gameObject.name});
-                    }
-
-                    variable.money -= 100;
-                    money.text = variable.money.ToString();
-                }
-                else
-                {
-                    Debug.Log("Insufficient balance");
-                }
+                add_to_variableTilesBought(hit, "Luxury", temp, 100);
             }
             else if(hit.collider.transform.parent.gameObject.name=="Alleyway")
             {
                 i = 0;
-                //money.text = (int.Parse(money.text)-70).ToString();
+                
                 money_individual.text = "- $70";
                 
                 int temp = variable.money - 70;
 
-                if (temp >= 0)
-                {
-                    hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
-
-                    //adding the tiles to the list that player purchased
-                    if (variable.tiles_bought.ContainsKey("Alleyway"))
-                    {
-                        variable.tiles_bought["Alleyway"].Add(hit.collider.gameObject.name);
-                    }
-                    else 
-                    {
-                        variable.tiles_bought.Add("Alleyway", new List<string> {hit.collider.gameObject.name});
-                    }
-                
-                    variable.money -= 70;
-                    money.text = variable.money.ToString();
-                }
-                else
-                {
-                    Debug.Log("Insufficient balance");
-                }   
+                add_to_variableTilesBought(hit, "Alleyway", temp, 70);
             }
             else
             {
                 i = 0;
-                //money.text = (int.Parse(money.text)-50).ToString();
+                
                 money_individual.text = "- $50";
                 
                 int temp = variable.money - 50;
                 
-                if (temp >= 0)
-                {
-                    hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
-
-                    //adding the tiles to the list that player purchased
-                    if (variable.tiles_bought.ContainsKey("Street"))
-                    {
-                        variable.tiles_bought["Street"].Add(hit.collider.gameObject.name);
-                    }
-                    else 
-                    {
-                        variable.tiles_bought.Add("Street", new List<string> {hit.collider.gameObject.name});
-                    }
-                
-                    variable.money -= 50;
-                    money.text = variable.money.ToString();                
-                }
-                else
-                {
-                    Debug.Log("Insufficient balance");
-                }
+                add_to_variableTilesBought(hit, "Street", temp, 50);
             } 
             
             is_tile = false;
         } 
+    }
+
+    public void add_to_variableTilesBought(RaycastHit2D hit, string s, int temp, int tile_cost)
+    {
+        if (temp >= 0)
+        {
+            hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+
+            //adding the tiles to the list that player purchased
+            if (variable.tiles_bought.ContainsKey(s))
+            {
+                variable.tiles_bought[s].Add(hit.collider.gameObject.name);
+            }
+            else 
+            {
+                variable.tiles_bought.Add(s, new List<string> {hit.collider.gameObject.name});
+            }
+        
+            variable.money -= tile_cost;
+            money.text = variable.money.ToString();                
+        }
+        else
+        {
+            Insufficient_balance.SetActive(true);
+        }
     }
 
     public void create_building_f()
@@ -247,6 +215,11 @@ public class BuildingCreate : MonoBehaviour
         building_g = false;
     }
 
+    void add_to_variableBuilding(RaycastHit2D hit, int temp, string sbuilding, string btype, int bcost)
+    {
+        
+    }
+
     public void initiate_building()
     {
         
@@ -264,7 +237,7 @@ public class BuildingCreate : MonoBehaviour
                     money_individual.text = "- $50";
 
                     int temp = variable.money - 50;
-                
+
                     if (temp >= 0)
                     {
                         GameObject building=Instantiate(prefab_buildingF,new Vector2(hit.point.x,hit.point.y), Quaternion.identity) as GameObject;
@@ -293,7 +266,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
                 else if(hit.collider.transform.parent.gameObject.name=="Alleyway")
@@ -332,7 +306,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
                 else
@@ -371,7 +346,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
             }
@@ -412,7 +388,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
                 else if(hit.collider.transform.parent.gameObject.name=="Alleyway")
@@ -450,7 +427,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
                 else
@@ -488,7 +466,8 @@ public class BuildingCreate : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Insufficient balance to place building");
+                        // Debug.Log("Insufficient balance to place building");
+                        Insufficient_balance.SetActive(true);
                     }
                 }
             }   

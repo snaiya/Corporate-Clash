@@ -90,7 +90,7 @@ public class AnimationCounter : MonoBehaviour
 
         salesreport.countBuildingTypes();
 
-        if(salesreport.total_profit >= 500 && variable.round <=14){
+        if(salesreport.total_profit >= 2000 && variable.round <=14){
             // win scene here and remove application.quit from here
             
            // Debug.Log("WINWINWIN!!");
@@ -152,7 +152,7 @@ public class AnimationCounter : MonoBehaviour
     }
     
     // Update is called once per frame
-    float time= 1f;
+    float time= 17.0f;
 
     void Update()
     {

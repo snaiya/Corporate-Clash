@@ -53,7 +53,7 @@ public class BuildingCreate : MonoBehaviour
         for (int i = 0; i <= 71; i++)
         {
             tile_color = GameObject.Find("Street" + i.ToString());
-            tile_color.gameObject.GetComponent<SpriteRenderer>().color = Color.yellow;
+            tile_color.gameObject.GetComponent<SpriteRenderer>().color = new Color(76.5f, 69f, 56.90f);
         }
 
         if (variable.round % 3 == 0)
@@ -179,7 +179,7 @@ public class BuildingCreate : MonoBehaviour
                     hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.yellow;
                     player_tiles_onego.Add(hit.collider.gameObject);
 
-                    variable.money -= 70;
+                    //variable.money -= 70;
                     money_onego += 70;
                     // money.text = variable.money.ToString();
                 }
@@ -202,7 +202,7 @@ public class BuildingCreate : MonoBehaviour
                     hit.collider.gameObject.GetComponent<SpriteRenderer>().color = Color.yellow;
                     player_tiles_onego.Add(hit.collider.gameObject);
 
-                    variable.money -= 50;
+                    //variable.money -= 50;
                     money_onego += 50;
                     // money.text = variable.money.ToString();                
                 }
@@ -463,6 +463,11 @@ public class BuildingCreate : MonoBehaviour
 
     public void confirm_tile()
     {
+        if(money_onego > variable.money)
+        {
+            cancel_tile();
+            Insufficient_balance.SetActive(true);
+        }
         if (is_tile == true)
         {
             is_tile = false;

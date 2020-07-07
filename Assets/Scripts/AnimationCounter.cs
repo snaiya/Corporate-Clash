@@ -17,6 +17,8 @@ public class AnimationCounter : MonoBehaviour
     public GameObject LossPlayAgain;
     GameObject salesreportui;
     GameObject salesreportpanel;
+
+    public GameObject nobalance;
     bool winflag=false;
     bool lossflag=false;
     //GameObject nextroundbutton;
@@ -28,7 +30,7 @@ public class AnimationCounter : MonoBehaviour
 
                 // lost because no balance to buy any building. irrespective of the round no
                 // thus show new screen stating the same and quit the game
-                
+                nobalance.SetActive(true);
 
 
             }
@@ -53,6 +55,7 @@ public class AnimationCounter : MonoBehaviour
         DecisionLost.SetActive(false);
         WonPlayAgain.SetActive(false);
         LossPlayAgain.SetActive(false);
+        nobalance.SetActive(false);
          //nextroundbutton = GameObject.Find("NextRoundButton");
         //Leftmost horizontal
         position_of_consumer[0] = new Vector3(-54.40446f,3.530338f,-1.22861f);

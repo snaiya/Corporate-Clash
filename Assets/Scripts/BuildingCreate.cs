@@ -19,7 +19,7 @@ public class BuildingCreate : MonoBehaviour
     public Button tile;
     public Button button_f;
     public Button button_g;
-    float timeLeft = 2.0f;
+    float timeLeft = 10.0f;
     public Text startText;
     public Text money;
     public Text location;

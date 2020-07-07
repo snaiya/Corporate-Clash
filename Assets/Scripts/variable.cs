@@ -57,7 +57,7 @@ public class variable : MonoBehaviour
     };
 
 
-    public static int money = 150;
+    public static int money = 1000;
 
     public static int round = 0;
 

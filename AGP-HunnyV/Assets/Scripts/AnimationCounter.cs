@@ -11,15 +11,73 @@ public class AnimationCounter : MonoBehaviour
     public GameObject[] animation_consumer = new GameObject[15];
     public Text progress;
     public Vector3[] position_of_consumer = new Vector3[15];
-
+	public GameObject DecisionWon;
+    public GameObject DecisionLost;
+    public GameObject WonPlayAgain;
+    public GameObject LossPlayAgain;
+	GameObject salesreportpanel;
+	public GameObject nobalance;
+    bool winflag=false;
+    bool lossflag=false;
     GameObject salesreportui;
     //GameObject nextroundbutton;
+	
+    void checkBuilding()
+    {
+        if (variable.Luxury_building.Count == 0 && variable.Alleyway_building.Count == 0 && variable.Street_building.Count==0)
+        {
+            if(variable.money < 50)
+            {
+                // lost because no balance to buy any building. irrespective of the round no
+                // thus show new screen stating the same and quit the game
+                nobalance.SetActive(true);
+            }
+        }
+    }
 
+    public void lastButton()
+    {
+        Application.Quit();
+    }
     void Start()
     {
         salesreportui = GameObject.Find("SalesReportUI");
-        salesreportui.SetActive(false);
+        salesreportpanel = GameObject.Find("SalesReportPanel");
 
+        salesreportui.SetActive(false);
+        DecisionWon.SetActive(false);
+        DecisionLost.SetActive(false);
+        WonPlayAgain.SetActive(false);
+        LossPlayAgain.SetActive(false);
+        nobalance.SetActive(false);
+
+        checkBuilding();
+
+        clusters c1 = new clusters();
+        c1.assign_bots_to_area();
+
+        variable.updateBuildingCount();
+
+        salesreport.countBuildingTypes();
+
+        if(salesreport.total_profit >= 2000 && variable.round <=14){
+            // win scene here and remove application.quit from here
+            
+            winflag=true;
+            salesreportpanel.SetActive(false);
+            DecisionWon.SetActive(true);
+            WonPlayAgain.SetActive(true);
+        }
+        else if(variable.round >14){
+            // Lose scene here and remove application.quit from here
+
+            lossflag=true;
+            salesreportpanel.SetActive(false);
+            DecisionLost.SetActive(true);
+            LossPlayAgain.SetActive(true);
+        }
+
+        
          //nextroundbutton = GameObject.Find("NextRoundButton");
         //Leftmost horizontal
         position_of_consumer[0] = new Vector3(-54.40446f,3.530338f,-1.22861f);
@@ -48,29 +106,6 @@ public class AnimationCounter : MonoBehaviour
             c.transform.position = position_of_consumer[i];
             animation_consumer[i]=c;
         }
-
-        clusters c1 = new clusters();
-        c1.assign_bots_to_area();
-
-        variable.updateBuildingCount();
-
-        salesreport.countBuildingTypes();
-
-        if(salesreport.total_profit >= 2000 && variable.round <=14){
-            // win scene here and remove application.quit from here
-            
-            Debug.Log("WINWINWIN!!");
-           // Application.Quit();
-
-        }
-        else if(variable.round >14){
-            // Lose scene here and remove application.quit from here
-            Debug.Log("LOST");
-            //Application.Quit();
-        }
-        
-
-        
     }
 
     void populateSalesReport()
@@ -102,13 +137,13 @@ public class AnimationCounter : MonoBehaviour
         
     }
     
-    private void spawnProgressBar()
-    {
-        slider.value += 0.0017f;        
-    }
+    // private void spawnProgressBar()
+    // {
+    //     slider.value += 0.0017f;        
+    // }
     
     // Update is called once per frame
-    float time= 1f;
+    float time= 20;
 
     void Update()
     {
@@ -125,13 +160,14 @@ public class AnimationCounter : MonoBehaviour
             //Score report
      
             salesreportui.SetActive(true);
-            populateSalesReport();
+            if(winflag==false && lossflag==false)
+            	populateSalesReport();
         }
 
-        if(time>0)
-        {
-            spawnProgressBar();
-        }
+        // if(time>0)
+        // {
+        //     spawnProgressBar();
+        // }
        
 
         Vector3 p = new Vector3();

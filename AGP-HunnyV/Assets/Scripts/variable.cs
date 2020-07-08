@@ -59,7 +59,7 @@ public class variable : MonoBehaviour
 
     public static int money = 1000;
 
-    public static int round = 0;
+    public static int round =0;
 
     public static void updateBuildingCount()
     {

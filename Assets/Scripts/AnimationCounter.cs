@@ -60,7 +60,7 @@ public class AnimationCounter : MonoBehaviour
 
         salesreport.countBuildingTypes();
 
-        if(salesreport.total_profit >= 2000 && variable.round <=15){
+        if(salesreport.total_profit >= 2000 && variable.round <=14){
             // win scene here and remove application.quit from here
             
             winflag=true;
@@ -68,7 +68,7 @@ public class AnimationCounter : MonoBehaviour
             DecisionWon.SetActive(true);
             WonPlayAgain.SetActive(true);
         }
-        else if(variable.round >15){
+        else if(variable.round >14){
             // Lose scene here and remove application.quit from here
 
             lossflag=true;

@@ -17,12 +17,14 @@ public class BuildingCreate : MonoBehaviour
     public GameObject ConfirmPanel;
     public Text moneyone_go_txt;
 
+    
+    public GameObject Img;
     public GameObject prefab_buildingG;
     public GameObject prefab_buildingF;
     public Button tile;
     public Button button_f;
     public Button button_g;
-    float timeLeft = 30.0f;
+    float timeLeft = 30;
     public Text startText;
     public Text money;
     public Text location;
@@ -38,6 +40,7 @@ public class BuildingCreate : MonoBehaviour
     {
         money.text = variable.money.ToString();
         Insufficient_balance.SetActive(false);
+        Img.SetActive(true);
         for (int i = 0; i <= 23; i++)
         {
             tile_color = GameObject.Find("LuxuryTile" + i.ToString());
@@ -108,7 +111,7 @@ public class BuildingCreate : MonoBehaviour
             location.text = hit.collider.transform.parent.name;
         }
 
-        if (timeLeft <= 0)
+        if (timeLeft <0)
         {
             enabled = false;
             UnityEngine.SceneManagement.SceneManager.LoadScene("New Consumption Phase");

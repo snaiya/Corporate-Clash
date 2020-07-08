@@ -137,13 +137,13 @@ public class AnimationCounter : MonoBehaviour
         
     }
     
-    private void spawnProgressBar()
-    {
-        slider.value += 0.0017f;        
-    }
+    // private void spawnProgressBar()
+    // {
+    //     slider.value += 0.0017f;        
+    // }
     
     // Update is called once per frame
-    float time= 17.0f;
+    float time= 20;
 
     void Update()
     {
@@ -164,10 +164,10 @@ public class AnimationCounter : MonoBehaviour
             	populateSalesReport();
         }
 
-        if(time>0)
-        {
-            spawnProgressBar();
-        }
+        // if(time>0)
+        // {
+        //     spawnProgressBar();
+        // }
        
 
         Vector3 p = new Vector3();

@@ -85,6 +85,13 @@ public class BuildingCreate : MonoBehaviour
                 pqr.GetComponent<SpriteRenderer>().color = Color.green;
             }
         }
+        // This code would be not activated after round 2
+        // Till that time the user knows what this button is for
+        if(variable.round==2)
+        {
+            GameObject g = GameObject.Find("Start_Building");
+            g.SetActive(false);
+        }
     }
 
     private int i = 0;

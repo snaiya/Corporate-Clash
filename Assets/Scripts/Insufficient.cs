@@ -8,6 +8,12 @@ public class Insufficient : MonoBehaviour
 {
   public GameObject Insufficient_balance;
 
+  public Text RoundNo;
+
+   void Start()
+   {
+      RoundNo.text = "ROUND NO :" + variable.round;
+   } 
    public void onGameComplete()
 
    {

@@ -1,15 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Build : MonoBehaviour
 {
     public GameObject Panel;
     public GameObject BldgPanel;
+    
+    GameObject tutorialtext;
+
     public void OpenPanel()
     {
         if (Panel != null)
         {
+            tutorialtext = GameObject.Find("Tutorialtext");
+            tutorialtext.GetComponent<Text>().text = "Make sure to purchase at least one tile before you construct a building";
+
+
             bool isActive = Panel.activeSelf;
             Panel.SetActive(!isActive);
         }
@@ -23,6 +31,10 @@ public class Build : MonoBehaviour
     {
         if (Panel != null)
         {
+
+            tutorialtext = GameObject.Find("Tutorialtext");
+            tutorialtext.GetComponent<Text>().text = "Select the type of building you wish to select";
+
             Panel.SetActive(false);
         }
         if (BldgPanel != null)

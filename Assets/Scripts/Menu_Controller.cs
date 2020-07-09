@@ -39,7 +39,7 @@ public class Menu_Controller : MonoBehaviour {
 		_audioSource.PlayOneShot(_audioClip);
 		PlayerPrefs.SetString("_LastScene", scene.name);
 		//UnityEngine.Debug.Log("We are going to board scene");
-		UnityEngine.SceneManagement.SceneManager.LoadScene("TargetWindow");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("Tutorial");
 	}
 	public void PlayInstructions()
 	{

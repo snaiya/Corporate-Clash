@@ -10,9 +10,12 @@ public class Insufficient : MonoBehaviour
 
   public Text RoundNo;
 
+  public int round;
+
    void Start()
    {
-      RoundNo.text = "ROUND NO :" + variable.round;
+      round = variable.round+1;
+      RoundNo.text = "ROUND NO :" + round;
    } 
    public void onGameComplete()
 

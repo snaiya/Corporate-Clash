@@ -24,7 +24,7 @@ public class BuildingCreate : MonoBehaviour
     public Button tile;
     public Button button_f;
     public Button button_g;
-    float timeLeft = 30;
+    float timeLeft = 8;
     public Text startText;
     public Text money;
     public Text location;
@@ -36,8 +36,18 @@ public class BuildingCreate : MonoBehaviour
     public HashSet<string> player1_permit = new HashSet<string>();
     public HashSet<GameObject> player_tiles_onego = new HashSet<GameObject>();
     // public HashSet<GameObject> player_bui_onego = new HashSet<GameObject>();
+    
+
+
+
+
+    //for instruction panel
+    public GameObject tutorialText;
+
+
     public void Start()
     {
+
         money.text = variable.money.ToString();
         Insufficient_balance.SetActive(false);
         Img.SetActive(true);
@@ -71,6 +81,10 @@ public class BuildingCreate : MonoBehaviour
             foreach (string g in kvp.Value)
             {
                 GameObject obj = GameObject.Find(g);
+
+                //Instruction Panel highlight tiles
+                obj.AddComponent<cakeslice.Outline>();
+
                 obj.GetComponent<SpriteRenderer>().color = Color.red;
                 player1_permit.Add(g);
 
@@ -85,6 +99,7 @@ public class BuildingCreate : MonoBehaviour
                 pqr.GetComponent<SpriteRenderer>().color = Color.green;
             }
         }
+
         // This code would be not activated after round 2
         // Till that time the user knows what this button is for
         if(variable.round==2)
@@ -228,6 +243,8 @@ public class BuildingCreate : MonoBehaviour
 
     public void create_building_f()
     {
+    	tutorialText = GameObject.Find("Tutorialtext");
+        tutorialText.GetComponent<Text>().text = "Click on the tiles you wish to build. You can only build on the tiles you purchased(green colored ones)";
         if (BldgPanel != null)
         {
             BldgPanel.SetActive(false);
@@ -243,6 +260,8 @@ public class BuildingCreate : MonoBehaviour
 
     public void create_building_g()
     {
+    	tutorialText = GameObject.Find("Tutorialtext");
+        tutorialText.GetComponent<Text>().text = "Click on the tiles you wish to build. You can only build on the tiles you purchased(green colored ones)";
         if (BldgPanel != null)
         {
             BldgPanel.SetActive(false);
@@ -258,6 +277,11 @@ public class BuildingCreate : MonoBehaviour
 
     public void place_tile()
     {
+    	
+    	tutorialText = GameObject.Find("Tutorialtext");
+        tutorialText.GetComponent<Text>().text = "Click on the highlighted tiles you wish to buy. You can buy multiple tiles at once. Confirm to purchase.";
+        
+
         if (Panel != null)
         {
             Panel.SetActive(false);
@@ -480,6 +504,11 @@ public class BuildingCreate : MonoBehaviour
         }
         if (is_tile == true)
         {
+
+        	tutorialText = GameObject.Find("Tutorialtext");
+	        tutorialText.GetComponent<Text>().text = "Again Click on the button above to construct the buildings";
+
+
             is_tile = false;
             foreach (GameObject g in player_tiles_onego)
             {
@@ -673,6 +702,11 @@ public class BuildingCreate : MonoBehaviour
     {
         if (is_tile == true)
         {
+
+        	tutorialText = GameObject.Find("Tutorialtext");
+	        tutorialText.GetComponent<Text>().text = "Looks like you dont want to build here! No worries you can repeat the process again to start build";
+
+
             if (player_tiles_onego.Count != 0)
             {
                 foreach (GameObject g in player_tiles_onego)

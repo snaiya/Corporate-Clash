@@ -143,7 +143,7 @@ public class AnimationCounter : MonoBehaviour
     // }
     
     // Update is called once per frame
-    float time= 20;
+    float time= 3;
 
     void Update()
     {

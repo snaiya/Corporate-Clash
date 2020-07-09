@@ -74,7 +74,7 @@ public class Music_Player : MonoBehaviour {
 					_audioSource.clip = _audioTracks[_newCount];_playingTrack = _newCount;
 				} 
 				_audioSource.Play();
-				Debug.Log("Called NextTrack: _next="+_newCount+" : _playing="+_playingTrack +" : _name= "+_audioTracks[_playingTrack].name);
+				//Debug.Log("Called NextTrack: _next="+_newCount+" : _playing="+_playingTrack +" : _name= "+_audioTracks[_playingTrack].name);
 		
 	}
 	
@@ -91,7 +91,7 @@ public class Music_Player : MonoBehaviour {
 					_playingTrack = _newCount;
 				}
 				_audioSource.Play();
-				Debug.Log("Called PreviousTrack: _next="+_newCount+" : _playing="+_playingTrack+" : _name= "+_audioTracks[_playingTrack].name);
+				//Debug.Log("Called PreviousTrack: _next="+_newCount+" : _playing="+_playingTrack+" : _name= "+_audioTracks[_playingTrack].name);
 	}
 
 }

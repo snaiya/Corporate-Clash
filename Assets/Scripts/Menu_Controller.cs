@@ -38,15 +38,22 @@ public class Menu_Controller : MonoBehaviour {
 	public void PlayGame () {
 		_audioSource.PlayOneShot(_audioClip);
 		PlayerPrefs.SetString("_LastScene", scene.name);
-		UnityEngine.Debug.Log("We are going to board scene");
-		UnityEngine.SceneManagement.SceneManager.LoadScene("TargetWindow");
+		//UnityEngine.Debug.Log("We are going to board scene");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("Tutorial");
 	}
 	public void PlayInstructions()
 	{
 		_audioSource.PlayOneShot(_audioClip);
 		PlayerPrefs.SetString("_LastScene", scene.name);
-		UnityEngine.Debug.Log("We are going to instructions scene");
-		UnityEngine.SceneManagement.SceneManager.LoadScene("Board");
+		//UnityEngine.Debug.Log("We are going to instructions scene");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("Instructions");
+	}
+	public void PlayMenu()
+	{
+		_audioSource.PlayOneShot(_audioClip);
+		PlayerPrefs.SetString("_LastScene", scene.name);
+		//UnityEngine.Debug.Log("We are going to board scene");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("Standalone");
 	}
 
 	public void Mute () {

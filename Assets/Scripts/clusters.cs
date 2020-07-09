@@ -7,14 +7,17 @@ using UnityEngine;
 public class clusters : MonoBehaviour
 {
     public int no_of_bots = 50;
-    public int no_of_clusters = 4;
+    public int no_of_clusters = 2;
 
     System.Random random = new System.Random();
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        variable.Land.Clear();
+        variable.Luxury_cluster.Clear();
+        variable.Alleyway_cluster.Clear();
+        variable.Street_cluster.Clear();
     }
 
     public void assign_bots_to_area()

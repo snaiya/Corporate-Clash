@@ -1,8 +1,6 @@
 # Corporate-Clash
 Built a resource management game as a part of CSCI 527 - USC curriculum and collaborated with Advanced Game Processing Team, USC.
 
-CORPORATE CLASH
-
 Game genre
 Strategy/ Finance
 
